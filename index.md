@@ -2,6 +2,8 @@
 
 [Command Line Notes](cli.md)
 
+[DNS](dns.md)
+
 [Dot Files](dot.md)
 
 - - - 
