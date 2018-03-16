@@ -1,0 +1,32 @@
+(add-to-list 'load-path "~/.emacs.d/el/")
+
+;;; Hooks
+(add-hook 'text-mode-hook 'typopunct-mode)
+(add-hook 'text-mode-hook 'ruler-mode)
+;(add-hook 'text-mode-hook 'turn-on-visual-line-mode)
+
+;;; Set default fill column (i.e. text-width) to 78
+(setq-default fill-column 78)
+
+;;; Set default major mode to text mode
+(setq-default major-mode 'text-mode)
+
+;;; Don't create backup files or autosave
+(setq make-backup-files nil)
+(setq auto-save-default nil)
+
+;;; Set dired listing mode to human readable
+(setq dired-listing-switches "-alh")
+
+;;; Display column number
+(column-number-mode 1)
+
+;;; Enable GPG encryption/decryption
+(require 'epa-file)
+(epa-file-enable)
+(setq epa-file-name-regexp "\\.\\(gpg\\|asc\\)$")
+(epa-file-name-regexp-update)
+
+;;; Add typographical marks
+(require 'typopunct)
+(typopunct-change-language 'english t)
