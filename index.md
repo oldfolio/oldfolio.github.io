@@ -25,3 +25,4 @@ Having trouble with Pages? Check out the documentation at http://help.github.com
 
 ### Adding pages
 Here is [page 2](page2.html).
+Some [command line notes](cli.md).
