@@ -1,0 +1,7 @@
+# Setting the prompt appearance
+set prompt = "%n@%m:%~ %# "
+set promptchars = "%#"
+
+# Setting an environment variable
+setenv TZ 'America/New_York'
+setenv EDITOR vim
