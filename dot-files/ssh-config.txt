@@ -1,0 +1,6 @@
+Host nickname
+  Hostname subdomain.domain.tld
+  Port 22
+  AddressFamily inet #or inet6 for IPv6
+  User username
+  IdentityFile /home/local-user/.ssh/private_key
