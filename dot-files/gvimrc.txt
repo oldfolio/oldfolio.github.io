@@ -1,0 +1,3 @@
+set lines=30
+set columns=80
+setlocal spell spelllang=en_us
