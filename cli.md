@@ -40,3 +40,56 @@ Encrypt to a specific user/recipient:
 ```
 gpg -e -r <user> file.txt
 ```
+Create a detached, ascii-enarmored signature specifying which key to use:
+```
+gpg -u key-to-use -a --output file.sig --detach-sig file.txt
+```
+Create a non-detached, ascii-enarmored signature specifying which key to use:
+```
+gpg -u key-to-use --clearsign file.txt
+```
+Verify detached signature:
+```
+gpg --verify signature.sig signed-file.txt
+```
+Export public key:
+```
+gpg -a --export {key-identifier} > public-key.asc
+```
+Export secret/private key:
+```
+gpg -a --export-secret-keys {key-identifier}  > secret-key.asc
+```
+#### NETHACK
+Some nethack commands:
+```
+ @ = toggle autopickup
+ d = drop
+ i = open inventory
+ r = read (as in read a spellbook)
+ t = throw (as in throw a dagger)
+ w = wield weapon
+ f = fire arrows in quiver using wielded bow
+ Q = place arrows in quiver
+ S = save your game and exit
+ P = put on (as in put on a ring)
+ R = remove (as in remove a ring)
+ W = wear armor or shield
+ T = take off armor or shield
+ Z = cast a spell
+ ^d = bash (as in bash a door)
+ #chat = talk to another character
+ #loot = open a container
+ #force = attempt to open a locked container
+ #untrap = rescue pet from pit
+```
+Possible ~/.nethackrc
+```
+OPTIONS=color,time,hilite_pet,menucolors,!autopickup,role=valkyrie,race=human
+#OPTIONS=color,time,role=wizard,race=elf,gender=female
+```
+#### RSYNC
+```
+rsync -avu --delete source-directory/ host:/destination-directory
+```
+Notice that the source directory HAS a trailing slash, but that the destination directory does NOT have a trailing slash.
