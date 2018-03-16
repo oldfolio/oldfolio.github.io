@@ -106,3 +106,41 @@ Yandex
 ```
 IN MX 10 mx.yandex.net.
 ```
+#### SPF Records
+```
+v=spf1 -all # Do not accept mail from this domain
+v=spf1 include:server.com -all # Accept mail sent by server.com, but no one else
+v=spf1 a mx -all # Accept mail sent by the servers specified in the domain's A and MX records
+```
+Fastmail
+```
+include:spf.messagingengine.com
+```
+Gandi
+```
+include:_mailcust.gandi.net
+```
+Google
+```
+include:_spf.google.com
+```
+Migadu
+```
+include:spf.migadu.com
+```
+PolarisMail
+```
+include:emailarray.com
+```
+Yandex
+```
+include:_spf.yandex.net
+```
+Zoho
+```
+include:zoho.com
+```
+Multiple "include" example:
+```
+domain.com. IN TXT "v=spf1 include:_spf.yandex.net include:spf.messagingengine.com -all"
+```
