@@ -48,6 +48,8 @@ Go to https://www.opennic.org to see which of their DNS resolvers are closest to
 
 [Hurricane Electric](http://dns.he.net/): 50 free zones; cannot find limits on records per zone or lookups.
 
+[Veesp](https://veesp.com/): DNS hosting is available free if you are paying for other services there.
+
 [Vultr](https://www.vultr.com/docs/introduction-to-vultr-dns): DNS hosting is available free if you are paying for other services there. They allow vanity name servers pointed at their own name servers.
 
 [Yandex](https://domain.yandex.com/): 50 free zones; cannot find limits on records per zone or lookups. No CAA records. (Although this service is aimed at people using Yandex to host their email, Yandex support explicitly states that you are free to host DNS without also hosting your email.) 
