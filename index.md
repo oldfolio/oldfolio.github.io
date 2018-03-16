@@ -8,5 +8,7 @@
 
 [Emacs](emacs.md)
 
+[Keys](keys.md)
+
 - - - 
 Log in to [GitHub](https://github.com/login).
