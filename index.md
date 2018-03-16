@@ -24,5 +24,5 @@ You can @mention a GitHub username to generate a link to their profile. The resu
 Having trouble with Pages? Check out the documentation at http://help.github.com/pages or contact support@github.com and we’ll help you sort it out.
 
 ### Adding pages
-Here is [page 2](page2.html).
+Here is [page 2](page2.html).  
 Some [command line notes](cli.md).
