@@ -92,4 +92,4 @@ M60rv9Tv70+uT35ADN39HjWGf3BfKznpcVYcjIwCOdEC9EX7T6VNKIhq
 Fingerprint: DD6E 324D FAC1 BA00 EB4B 2B6B 3C9D EEB4 98B2 E726 
 
 #### My SSH Public Keys
-My SSH public keys are attached: authorized_keys.txt.
+My SSH public keys are attached: [authorized_keys](dot-files/authorized_keys.txt).
