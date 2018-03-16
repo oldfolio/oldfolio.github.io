@@ -1,0 +1,9 @@
+syntax on
+set encoding=utf-8
+set ruler
+set ignorecase
+set backspace=indent,eol,start
+set viminfo=
+set noswapfile
+set nobackup
+set cm=blowfish2
