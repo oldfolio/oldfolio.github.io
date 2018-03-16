@@ -93,3 +93,82 @@ OPTIONS=color,time,hilite_pet,menucolors,!autopickup,role=valkyrie,race=human
 rsync -avu --delete source-directory/ host:/destination-directory
 ```
 Notice that the source directory HAS a trailing slash, but that the destination directory does NOT have a trailing slash.
+
+#### TAR
+To create an archive that excludes some files in the target:
+```
+tar cvf ~/archive.tar --exclude='excluded-directory/*' *
+```
+To list the files in an archive:
+```
+tar tvf archive.tar
+```
+Compression:
+
+bzip2 = j  
+gzip = z  
+xz = J  
+
+#### VIM
+Find each occurrence of 'foo' and replace it with 'bar':
+```
+:%s/foo/bar/g
+```
+Edit a remote file:
+```
+vim scp://user@server.com:22//home/user/filename
+```
+or
+```
+:e scp://user@server.com:22//home/user/filename
+```
+Prompt for an encryption key:
+```
+:X
+```
+Center text [based on a 75 character-wide line]:
+```
+ :ce [75]
+```
+Set the maximum number of characters on a line to 75
+```
+set tw=75
+```
+Various editing tasks:
+```
+dd delete current line
+~ switch case of characters (from CAPITALS to lower case or vice VERSA)
+U MAKE ALL SELECTED CHARACTERS CAPITALS/UPPER CASE
+u make all selected characters lower case
+J join next line to the current one
+> indent selected lines
+gq apply text formatting to selected region
+
+" specify a register
+"+ specify the clipboard
+"+y copy to clipboard
+"+d cut to clipboard
+"+P paste from clipboard before cursor
+"+p paste from clipbaord after cursor
+```
+- - - 
+#### Miscellaneous
+Flush memory caches on a linux machine:
+```
+echo 3 > /proc/sys/vm/drop_caches
+```
+Do a searchon "drop_caches" for additional information, including the differences between echo 1, echo 2, and echo 3.
+
+Overwrite with zeroes a 133 byte file:
+```
+dd if=/dev/zero of=filename count=1 bs=133
+```
+Overwrite with zeroes a 1 MB byte file:
+```
+dd if=/dev/zero of=storage-bin count=1K bs=1024
+```
+Overwrite with zeroes a 1 GB byte file:
+```
+dd if=/dev/zero of=storage-bin count=1024K bs=1024
+dd if=/dev/zero of=storage-bin count=1M bs=1024
+```
