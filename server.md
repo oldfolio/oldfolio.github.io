@@ -52,3 +52,56 @@ Under FreeBSD, an easy way to start the gopher server automatically on system re
 ```
 - - - 
 #### Setting Up an Nginx Web Server on FreeBSD 11.1
+```
+pkg install nginx-lite
+```
+This installation returns the following message:
+```
+===================================================================
+Recent version of the NGINX introduces dynamic modules support.  In
+FreeBSD ports tree this feature was enabled by default with the DSO
+knob.  Several vendor's and third-party modules have been converted
+to dynamic modules.  Unset the DSO knob builds an NGINX without
+dynamic modules support.
+
+To load a module at runtime, include the new `load_module'
+directive in the main context, specifying the path to the shared
+object file for the module, enclosed in quotation marks.  When you
+reload the configuration or restart NGINX, the module is loaded in.
+It is possible to specify a path relative to the source directory,
+or a full path, please see
+https://www.nginx.com/blog/dynamic-modules-nginx-1-9-11/ and
+http://nginx.org/en/docs/ngx_core_module.html#load_module for
+details.
+
+Default path for the NGINX dynamic modules is
+
+/usr/local/libexec/nginx.
+===================================================================
+```
+Add the line
+```
+nginx_enable="YES"
+```
+to /etc/rc.conf.
+
+Create the directory:
+```
+/usr/local/etc/nginx/sites-enabled
+```
+This is where you will keep the configuration files for specific sites. You will need to edit
+```
+/usr/local/etc/nginx/nginx.conf
+```
+so that nginx will know to use the sites-enabled directory. Just below the gzip line, add
+```
+include /usr/local/etc/nginx/sites-enabled/*;
+```
+Test the new configuration changes:
+```
+nginx -t
+```
+If everything is working, start or reload nginx:
+```
+nginx -s reload
+```
