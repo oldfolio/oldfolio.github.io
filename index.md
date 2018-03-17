@@ -10,5 +10,7 @@
 
 [Keys](keys.md)
 
+[Server](server.md)
+
 - - - 
 Log in to [GitHub](https://github.com/login).
