@@ -210,4 +210,57 @@ server {
   ssl_dhparam /etc/ssl/dhparams.pem;
   }
 ```
-You should, of course, use the proper paths and domains in your configuration files. I have also abbreviated the ssl_ciphers line above. You should use all the ciphers in the attached [nginx-ssl-block.txt](dot-files/nginx-ssl-block.txt) file.
+You should, of course, use the proper **paths** and **domains** in your configuration files. I have also abbreviated the ```ssl_ciphers``` line above. You should use all the ciphers in the attached [nginx-ssl-block.txt](dot-files/nginx-ssl-block.txt) file.
+##### Adding PHP
+PmWiki needs the PHP session module, so:
+```
+pkg install php71-session
+
+cp /usr/local/etc/php.ini-production /usr/local/etc/php.ini
+```
+In the php.ini file, find the line
+```
+;cgi.fix_pathinfo=1
+```
+and change it to
+```
+cgi.fix_pathinfo=0
+```
+Add the line
+```
+php_fpm_enable="YES"
+```
+to /etc/rc.conf.
+
+Edit the file /usr/local/etc/php-fpm.d/www.conf:
+```
+; listen = 127.0.0.1:9000
+listen = /var/run/php-fpm.sock
+listen.owner = www
+listen.group = www
+listen.mode = 0660
+```
+Start or re-start php-fpm:
+```
+/usr/local/etc/rc.d/php-fpm start | stop | restart | onereload
+```
+Add the following lines to the serve blocks of the sites on which you wish to enable PHP:
+```
+index index.php index.html;
+
+location ~ \.php$ {
+  fastcgi_split_path_info ^(.+\.php)(/.+)$;
+  fastcgi_pass unix:/var/run/php-fpm.sock;
+  fastcgi_index index.php;
+  fastcgi_param SCRIPT_FILENAME $request_filename;
+  include fastcgi_params;
+  }
+```
+If you are enabling PHP on a site served only over HTTPS, you can omit the
+```
+index index.php index.html;
+```
+line in the listen 80; block that simply redirects to HTTPS.
+##### PmWiki Notes
+The ```wiki.d``` directory needs to be writable by the web server. This can be done by changing the directory's group owner to www and making sure the directory and its contents are group writable. For some reason this is not necessary in your personal web space at freeshell.de.
+- - - 
