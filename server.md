@@ -210,7 +210,7 @@ server {
   ssl_dhparam /etc/ssl/dhparams.pem;
   }
 ```
-You should, of course, use the proper **paths** and **domains** in your configuration files. I have also abbreviated the ```ssl_ciphers``` line above. You should use all the ciphers in the attached [nginx-ssl-block.txt](dot-files/nginx-ssl-block.txt) file.
+You should, of course, use the proper **paths** and **domains** in your configuration files. I have also abbreviated the `ssl_ciphers` line above. You should use all the ciphers in the attached [nginx-ssl-block.txt](dot-files/nginx-ssl-block.txt) file.
 ##### Adding PHP
 PmWiki needs the PHP session module, so:
 ```
@@ -232,7 +232,8 @@ php_fpm_enable="YES"
 ```
 to /etc/rc.conf.
 
-Edit the file /usr/local/etc/php-fpm.d/www.conf:
+Edit the file `/usr/local/etc/php-fpm.d/www.conf`:
+
 ```
 ; listen = 127.0.0.1:9000
 listen = /var/run/php-fpm.sock
@@ -262,5 +263,5 @@ index index.php index.html;
 ```
 line in the listen 80; block that simply redirects to HTTPS.
 ##### PmWiki Notes
-The ```wiki.d``` directory needs to be writable by the web server. This can be done by changing the directory's group owner to www and making sure the directory and its contents are group writable. For some reason this is not necessary in your personal web space at freeshell.de.
+The `wiki.d` directory needs to be writable by the web server. This can be done by changing the directory's group owner to www and making sure the directory and its contents are group writable. For some reason this is not necessary in your personal web space at freeshell.de.
 - - - 
