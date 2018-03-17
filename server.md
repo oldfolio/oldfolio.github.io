@@ -175,3 +175,38 @@ If you wish to test the renewal process, stop nginx and run
 ```
 certbot renew --dry-run
 ```
+If you have not already done so, you will need to create a DH Params key. In the
+```
+/etc/ssl/
+```
+directory, run
+```
+openssl dhparam -out dhparams.pem 4096
+```
+This may take a long time, but once it is done you should be ready to implement HTTPS.
+
+In order to implement HTTPS on one of your sites, create two server blocks in the site configuration file. The first should be fairly simple:
+```
+server {
+  listen 80;
+  root /path/to/site-root;
+  server_name www.domain.tld;
+  return 301 https://$server_name$request_uri;
+  error_page 404 /404.html;
+  }
+```
+The second should look something like this:
+```
+server {
+  root /path/to/site-root;
+  server_name www.domain.tld;
+  listen 443;
+  ssl on;
+  ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+  ssl_ciphers 'ECDHE-RSA-AES128-GCM-SHA256: ... ';
+  ssl_prefer_server_ciphers on;
+  ssl_certificate /usr/local/etc/letsencrypt/live/www.domain.tld/fullchain.pem;
+  ssl_certificate_key /usr/local/etc/letsencrypt/live/www.domain.tld/privkey.pem;
+  ssl_dhparam /etc/ssl/dhparams.pem;
+  }
+```
