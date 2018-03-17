@@ -210,3 +210,4 @@ server {
   ssl_dhparam /etc/ssl/dhparams.pem;
   }
 ```
+You should, of course, use the proper paths and domains in your configuration files. I have also abbreviated the ssl_ciphers line above. You should use all the ciphers in the attached [nginx-ssl-block.txt](dot-files/nginx-ssl-block.txt) file.
