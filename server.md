@@ -105,3 +105,20 @@ If everything is working, start or reload nginx:
 ```
 nginx -s reload
 ```
+Now you can start creating site configuration files. They will look something like
+```
+server {
+  root /path/to/site-root;
+  server_name www.domain.tld;
+  error_page 404 /404.html;
+  }
+```
+This should leave you with a working setup for basic static sites. If you wish to redirect your bare domain to www, then add another server block to the site configuration file:
+```
+server {
+  server_name domain.tld;
+  return 301 http://www.domain.tld;
+  }
+```
+##### Adding SSL/TLS Support
+
