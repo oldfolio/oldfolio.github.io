@@ -42,3 +42,13 @@ sendmail_outbound_enable="NO"
 sendmail_msp_queue_enable="NO"
 ```
 to the /etc/rc.conf file.
+
+#### Setting Up a Gopher Server
+Install pygopherd. The default configuration (on Debian systems found at /etc/pygopherd/pygopherd.conf, on FreeBSD systems found at /usr/local/etc/pygopherd/pygopherd.conf) should work fine but read it anyway so that you understand what pygopherd is doing. Pygopherd will serve files from the /var/gopher directory. All files in that directory (and its subdirectories) must belong to owner gopher and group gopher.
+
+Under FreeBSD, an easy way to start the gopher server automatically on system reboots is to add to the root user's crontab:
+```
+@reboot /usr/local/bin/pygopherd
+```
+- - - 
+#### Setting Up an Nginx Web Server on FreeBSD 11.1
