@@ -1,6 +1,8 @@
 ## Dot Files
 A collection of configuration files
 
+~/.emacs.d/[init.el](dot-files/emacs.d-init.el.txt)
+
 ~/[.kshrc](dot-files/kshrc.txt)
 
 ~/[.mkshrc](dot-files/mkshrc.txt) additions
