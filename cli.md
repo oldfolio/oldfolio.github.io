@@ -33,7 +33,7 @@ dig mx yandex.com @dns1.yandex.net
 If you enable one of the color modes, then \<shift\>-5 will cycle through the color schemes for that mode.
 
 #### EMACS
-I keep my [Emacs notes](emacs.md) on their own page. It has not yet been set up.
+I keep my [Emacs notes](emacs.md) on their own page.
 
 #### GNUPG
 Encrypt to a specific user/recipient:
