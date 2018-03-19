@@ -1,0 +1,11 @@
+#!/bin/sh
+# Overwrites a file with zeroes and then removes it
+# Usage: ./shred.sh <size> <filename>
+# You can find the size of a file with 'ls -l <filename>'
+
+# You can start with a urandom overwrite.
+# dd if=/dev/urandom of=$2 count=1 bs=$1
+# sleep 1
+dd if=/dev/zero of=$2 count=1 bs=$1
+sleep 1
+rm $2
