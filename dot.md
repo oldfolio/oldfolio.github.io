@@ -14,3 +14,9 @@ A collection of configuration files
 ~/.vim/[gvimrc](dot-files/gvimrc.txt)
 
 ~/.vim/[vimrc](dot-files/vimrc.txt)
+
+- - - 
+
+#### SCRIPTS
+
+[shred.sh](dot-files/shred.sh.txt)
