@@ -19,4 +19,6 @@ A collection of configuration files
 
 #### SCRIPTS
 
+[freebsd-cpu-info.sh](dot-files/freebsd-cpu-info.sh.txt)
+
 [shred.sh](dot-files/shred.sh.txt)
