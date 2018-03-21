@@ -89,6 +89,31 @@ Jo Yeong-wook
 
 #### Vocal
 
+[Allegri: Miserere](https://www.youtube.com/watch?v=FA8_oE-nS5c)  
+[Bach: Jesu, meine Freude](https://www.youtube.com/watch?v=XVa3nR-2bVc)  
+[Bach: Mass in B Minor: Kyrie](https://www.youtube.com/watch?v=cRqsdRwnqJc)  
+[Bach: Mass in B Minor: Agnus Dei](https://www.youtube.com/watch?v=tdLCcQixNvg)  
+[Bach: St Matthew Passion: Erbarme dich (Guillon)](https://www.youtube.com/watch?v=nZb7FcP84CM)  
+[Bach: St Matthew Passion: Erbarme dich (Kozena)](https://www.youtube.com/watch?v=ucg7l1g8G4g)  
+[Donizetti: Il dolce suono (Inva Mula)](https://www.youtube.com/watch?v=XdAZxeIHqJ0)  
+[Handel: Giulio Cesare: Se pieta de mi non senti (Kozena)](https://www.youtube.com/watch?v=tvWmMUu9O58)  
+[Handel: Rinaldo: Lascia ch'io pianga (Kozena)](https://www.youtube.com/watch?v=PRhKvuh2Lss)  
+[Handel: Theodora: Angels Ever Bright and Fair (Hunt Lieberson)](https://www.youtube.com/watch?v=q5wgVnzlnUQ)  
+[Mahler: Ich bin der Welt abhanden gekommen (Kozena - Abbado)](https://www.youtube.com/watch?v=11mfvRIKgUA)  
+[Mahler: Ich bin der Welt abhanden gekommen (Kozena - Rattle)](https://www.youtube.com/watch?v=_R7MjmFlkmY)  
+[Mozart: Ave Verum Corpus](https://www.youtube.com/watch?v=DsUWFVKJwBM)  
+[Mozart: Don Giovanni: Commendatore](https://www.youtube.com/watch?v=dK1_vm0FMAU)  
+[Mozart: Great Mass in C Minor: Agnus Dei](https://www.youtube.com/watch?v=tDxj20Srr5s)  
+[Mozart: Magic Flute: Queen of the Night](https://www.youtube.com/watch?v=dpVV9jShEzU)  
+[Mozart: Requiem (Complete, Live, Karajan)](https://www.youtube.com/watch?v=ia8ceqIDSJw)  
+[Mozart: Requiem: Introit](https://www.youtube.com/watch?v=GC_m_5Ow7ec)  
+[Mozart: Requiem: Lacrimosa](https://www.youtube.com/watch?v=k1-TrAvp_xs)  
+[Pegolesi: Stabat Mater](https://www.youtube.com/watch?v=xHQVtYzjLao)  
+[Purcell: Dido and Aeneas: When I Am Laid in Earth (Kielland)](https://www.youtube.com/watch?v=lq2VIjFAvmg)  
+[Purcell: Dido and Aeneas: When I Am Laid in Earth (Troyanos: 3:45)](https://www.youtube.com/watch?v=vK06iwXT0Jw)  
+[Purcell: Dido and Aeneas: When I Am Laid in Earth (Troyanos: 5:07)](https://www.youtube.com/watch?v=H0IW1CEeWIE)  
+[Verdi: Requiem, Requiem](https://www.youtube.com/watch?v=6unylQ0cc44)  
+
 ## Popular
 
 #### A - M
