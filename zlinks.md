@@ -1,3 +1,5 @@
+[Muisc](music.md)
+
 ## ZLINKS
 #### Accounts
 
