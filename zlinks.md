@@ -1,4 +1,4 @@
-[Muisc](music.md)
+[Music](music.md)
 
 ## ZLINKS
 #### Accounts
