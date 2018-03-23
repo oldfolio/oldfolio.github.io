@@ -32,6 +32,8 @@ dig mx yandex.com @dns1.yandex.net
 #### ELINKS
 If you enable one of the color modes, then \<shift\>-5 will cycle through the color schemes for that mode.
 
+You can toggle the numbering of hyperlinks with the period "."
+
 #### EMACS
 I keep my [Emacs notes](emacs.md) on their own page.
 
