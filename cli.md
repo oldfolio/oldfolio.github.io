@@ -62,6 +62,13 @@ Export secret/private key:
 ```
 gpg -a --export-secret-keys {key-identifier}  > secret-key.asc
 ```
+
+#### NAMEBENCH
+Send 128 queries to only the nameservers specified:
+```
+namebench -q 128 -O 208.67.222.222, 1.1.1.1, 8.8.8.8
+```
+
 #### NETHACK
 Some nethack commands:
 ```
