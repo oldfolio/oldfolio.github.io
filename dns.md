@@ -1,11 +1,16 @@
 ## Public DNS Resolvers
+#### CloudFlare
+```
+1.1.1.1
+1.0.0.1
+2606:4700:4700::1111
+2606:4700:4700::1001
+```
 #### Dyn
 ```
 216.146.35.35
 216.146.36.36
 ```
-Fast in Eastern Europe
-
 #### Google
 ```
 8.8.8.8
@@ -20,11 +25,12 @@ Fast in Eastern Europe
 2620:0:ccc::2
 2620:0:ccd::2
 ```
-Fastest in North America
-
 #### OpenNIC Project
-Go to https://www.opennic.org to see which of their DNS resolvers are closest to you. OpenNIC servers periodically go down and occasionally just disappear.
-
+Go to https://www.opennic.org to see which of their DNS resolvers are closest to you. OpenNIC servers periodically go down and occasionally just disappear. The servers that tend to work best for me (in North America) are:
+```
+192.52.166.110
+158.69.239.167
+```
 #### Yandex Basic
 ```
 77.88.8.8
