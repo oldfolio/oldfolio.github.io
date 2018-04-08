@@ -31,6 +31,11 @@ Go to https://www.opennic.org to see which of their DNS resolvers are closest to
 192.52.166.110
 158.69.239.167
 ```
+#### Quad9
+```
+9.9.9.9
+149.112.112.112
+```
 #### Yandex Basic
 ```
 77.88.8.8
