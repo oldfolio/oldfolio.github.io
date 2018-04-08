@@ -35,6 +35,7 @@ Go to https://www.opennic.org to see which of their DNS resolvers are closest to
 ```
 9.9.9.9
 149.112.112.112
+2620:fe::fe
 ```
 #### Yandex Basic
 ```
