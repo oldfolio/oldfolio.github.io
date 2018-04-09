@@ -167,6 +167,8 @@ Jo Yeong-wook
 [Elton John: Sorry Seems to be the Hardest Word](https://www.youtube.com/watch?v=J2e4NlnLr28)  
 [Everlast: Stone in My Hand](https://www.youtube.com/watch?v=NtmemsBdd_c)  
 [Frank Ocean: Bad Religion](https://www.youtube.com/watch?v=xlGibv97XWM)  
+[Frank Ocean: Pink Matter](https://www.youtube.com/watch?v=CQsUNvYBch0)
+[Frank Ocean: Pink Matter (Piano Theorist Cover)](https://www.youtube.com/watch?v=3FqnJVQouHY)
 [Gil Scott-Heron: Me and the Devil](https://www.youtube.com/watch?v=OET8SVAGELA)  
 [Gil Scott-Heron: Whitey on the Moon](https://www.youtube.com/watch?v=9DUxzAD6RZ0)  
 [Gil Scott-Heron: Winter in America](https://www.youtube.com/watch?v=m2zKdIcOV5s)  
