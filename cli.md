@@ -118,6 +118,52 @@ bzip2 = j
 gzip = z  
 xz = J  
 
+#### TWENEX
+To log in to SDF's Twenex machine, first log in to your SDF
+account. Then telnet to twenex.org. When you arrive at the @
+prompt, type login username. You will then be prompted for
+your password.
+	 
+To log out of twenex:
+``` 	 
+@logout
+``` 
+You can upload files that you have created elsewhere using ftp:
+```	 
+ftp user@twenex.org
+```
+To move a file to a different diretory:
+```	 
+@rename filename <user.directory>filename
+```  
+To delete a file:
+```  
+@delete filename
+``` 	 
+Change directory:
+``` 	 
+@cd <user.directory-name>
+``` 
+List directory contents:
+```   	 
+@dir
+```
+Create a directory:
+```	 
+@BUILD <$USER.NEW-DIRECTORY-NAME>
+@@WORKING 1 (or some other number that won't put you over quota)
+@@PERMANENT 1 (or some other number that won't put you over quota)
+@@
+@
+```
+ 
+Remove a directory:
+```
+@BUILD <$USER.DIRECTORY-NAME>
+@@KILL
+@@
+@
+``` 
 #### VIM
 Find each occurrence of 'foo' and replace it with 'bar':
 ```
