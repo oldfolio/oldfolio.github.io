@@ -158,6 +158,8 @@ Jo Yeong-wook
 [Death Grips: Guillotine](https://www.youtube.com/watch?v=Orlbo9WkZ2E)  
 [(Lyrics to Guillotine)](https://genius.com/Death-grips-guillotine-lyrics)  
 [Depeche Mode: Personal Jesus](https://www.youtube.com/watch?v=bAtRm1IrXsw)  
+[Ella Fitzgerald: I'm Getting Sentimental Over You](https://www.youtube.com/watch?v=F-ReTatgS3M)  
+[Ella Fitzgerald: Misty](https://www.youtube.com/watch?v=rPOlakkBlj8)  
 [Elliott Smith: Bye](https://www.youtube.com/watch?v=X8MiP0n68fI)  
 [Elliott Smith: Coast to Coast](https://www.youtube.com/watch?v=y-ALdfkLYYk)  
 [Elliott Smith: Independence Day](https://www.youtube.com/watch?v=5ElSHo9z5Ks) (Live)  
