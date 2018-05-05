@@ -28,6 +28,7 @@ Nicholas Britell
 [Jordi Cervello: Violin Conc 1. Mvt. 1](https://www.youtube.com/watch?v=PL88L05Hn8w)  
 [Copland: Appalachian Spring (Suite)](https://www.youtube.com/watch?v=WVahuS9hk_s)  
 [Copland: Clarinet Conc. Andante](https://www.youtube.com/watch?v=ACO5DjpS8YM)  
+[Manuel de Falla: Nights in the Gardens of Spain](https://www.youtube.com/watch?v=_MS332sS7cA)  
 [David Diamond: Symphony 2:1. Adagio](https://www.youtube.com/watch?v=Z3AudRE8ghY)  
 [Dvorak: Romance for Piano & Violin, Op. 11](https://www.youtube.com/watch?v=XZTeavJ9frA)  
 Flury, Urs Joseph: Sinfonietta for String Orchestra, Intermezzo Nostalgico  
