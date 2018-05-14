@@ -263,7 +263,7 @@ index index.php index.html;
 ```
 line in the listen 80; block that simply redirects to HTTPS.
 ##### PmWiki Notes
-The `wiki.d` directory needs to be writable by the web server. This can be done by changing the directory's group owner to www and making sure the directory and its contents are group writable. For some reason this is not necessary in your personal web space at freeshell.de.
+The `wiki.d` directory needs to be writable by the web server. This can be done by changing the directory's group owner to `www` and making sure the directory and its contents are group writable. On Debian-based systems, the group owner should be `www-data`. For some reason this is not necessary in your personal web space at freeshell.de.
 - - - 
 #### Server Naming Schemes
 [RFC 1178](http://tools.ietf.org/html/rfc1178): Choosing a Name for Your Computer
