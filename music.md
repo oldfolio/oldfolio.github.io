@@ -17,7 +17,7 @@ Log in to [GitHub](https://github.com/login).
 [Bach: Partita 2](https://www.youtube.com/watch?v=6KaYzgofHjc)  
 [Bach: Partita 2 Dmin BWV 1004 I. Allemande](https://www.youtube.com/watch?v=tRvjqnY84q8)  
 [Bach: Partita 3](https://www.youtube.com/watch?v=3VOkrddp6M8)  
-[Bach: Violin Sonata in G minor: Fugue](https://www.youtube.com/watch?v=RG7rx3BO6JY)  
+[Bach: Violin Sonata in G minor: Fugue (BWV 1001) Lana Trotovsek](https://www.youtube.com/watch?v=RG7rx3BO6JY)  
 [Barber: Cello Concerto: Andante](https://www.youtube.com/watch?v=xBAVqwJHI1k)  
 [Barber: Cello Concerto: Andante (Garbousova)](https://www.youtube.com/watch?v=cNn1XlNg10k)  
 Nicholas Britell  
