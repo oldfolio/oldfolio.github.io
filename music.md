@@ -69,6 +69,7 @@ Jo Yeong-wook
 [Mozart: Piano Concerto 23. Adagio](https://www.youtube.com/watch?v=mf711o8jAQA)  
 [Michael Nyman: The Departure (Gattaca)](https://www.youtube.com/watch?v=grdK703W92I)  
 [Arvo Part: Fratres](https://www.youtube.com/watch?v=o5EarEfuhoo)  
+[Arvo Part: Fratres (Trotovsek/Misumi)](https://www.youtube.com/watch?v=pTCTaKrLC0Y)  
 [Goffredo Petrassi: Quarto Concerto, Mvt 1](https://www.youtube.com/watch?v=uvPJ8gskV3o)  
 [Portland Cello Project: Between the Bars (Elliott Smith)](https://www.youtube.com/watch?v=0qi1zk6C1B4)  
 [Rachmaninoff: Piano Concerto #2](https://www.youtube.com/watch?v=FNyQz7SiPQY)  
