@@ -63,6 +63,11 @@ Export secret/private key:
 gpg -a --export-secret-keys {key-identifier}  > secret-key.asc
 ```
 
+#### LN
+```
+ln -s target-file link-name
+```
+
 #### NAMEBENCH
 Send 128 queries to only the nameservers specified:
 ```
