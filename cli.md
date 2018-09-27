@@ -108,6 +108,30 @@ rsync -avu --delete source-directory/ host:/destination-directory
 ```
 Notice that the source directory HAS a trailing slash, but that the destination directory does NOT have a trailing slash.
 
+#### SECURE_DELETE (FreeBSD) / SECURE-DELETE (Debian)
+Overwrite and delete all files and subdirectories of DIRECTORY
+```
+srm -llr <DIRECTORY>
+```
+
+#### SMEM
+Report chrome or chromium total memory usage:
+```
+smem -t -k -c pss -P chrom | tail -n 1
+```
+Report yandex browser total memory usage:
+```
+smem -t -k -c pss -P yandex_b | tail -n 1
+```
+Report yandex disk total memory usage:
+```
+smem -t -k -c pss -P yandex-d | tail -n 1
+```
+Report opera total memory usage:
+```
+smem -t -k -c pss -P opera | tail -n 1
+```
+
 #### TAR
 To create an archive that excludes some files in the target:
 ```
