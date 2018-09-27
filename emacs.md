@@ -33,4 +33,46 @@ Move to other window: Ctrl-x o
 Close current window: Ctrl-x 0
 Increase window size: Ctrl-x ^
 Pull up directory listing: Ctrl-x d 
+
+Top of buffer: Meta-< 
+Bottom of buffer: Meta-> 
+Page down: Ctrl-v 
+Page up: Meta-v 
+Beginning of line: Ctrl-a 
+End of line: Ctrl-e 
+Next line: Ctrl-n 
+Previous line: Ctrl-p 
+Forward on character: Ctrl-f 
+Back one character: Ctrl-b 
+Forward one word: Meta-f 
+Back one word: Meta-b 
+
+Set bookmark: Ctrl-x r m 
+List bookmarks: Ctrl-x r l 
+. With list open use "r" to rename a bookmark. 
+. With list open use "d" to mark bookmark for deletion. 
+. With list open use "x" to delete marked bookmark. 
+
+Cut/Copy/Paste 
+Select text by setting a beginning mark with Ctrl-space, and then 
+moving cursor to end of desired selection. 
+Cut selection: Ctrl-w 
+Copy selection: Meta-w 
+Paste selection: Ctrl-y 
+Merge previous line with current: Meta-^ 
+
+Set text width (i.e. fill column): Ctrl-x f [default is 70] 
+Display column ruler: Meta-x ruler-mode 
+Justify paragraph at 78 characters: Meta-78 Meta-q 
+
+Undo: Ctrl-x u
+
+Search: Ctrl-s 
+. A subsequent Ctrl-s takes you to the next occurrence 
+. Ctrl-r takes you to the previous occurrence 
+
+Center line: Meta-o Meta-s 
+Meta-l Make word lower case 
+Meta-u Make word upper case 
+Meta-c Capitalize word
 ```
