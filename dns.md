@@ -51,7 +51,6 @@ Go to https://www.opennic.org to see which of their DNS resolvers are closest to
 2a02:6b8::feed:bad
 2a02:6b8:0:1::feed:bad
 ```
-(For me, Yandex Safe has always been slightly faster than Yandex Basic.)
 
 ## Free DNS Hosting
 [Cloudflare](https://www.cloudflare.com/): Unlimited lookups; 3500 records per zone; cannot find limit on number of zones.
