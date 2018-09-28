@@ -119,6 +119,10 @@ Report chrome or chromium total memory usage:
 ```
 smem -t -k -c pss -P chrom | tail -n 1
 ```
+Report opera total memory usage:
+```
+smem -t -k -c pss -P opera | tail -n 1
+```
 Report yandex browser total memory usage:
 ```
 smem -t -k -c pss -P yandex_b | tail -n 1
@@ -127,9 +131,9 @@ Report yandex disk total memory usage:
 ```
 smem -t -k -c pss -P yandex-d | tail -n 1
 ```
-Report opera total memory usage:
+Report vivaldi total memory usage:
 ```
-smem -t -k -c pss -P opera | tail -n 1
+smem -t -k -c pss -P vivaldi | tail -n 1
 ```
 
 #### TAR
