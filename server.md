@@ -24,6 +24,14 @@ To enable key login for a user, add the user's SSH public key to the file
 ```
  
 #### Miscellaneous Intial Setup Tasks
+Some initial tasks you might need to do on some VPSs with minimal
+**Debian** installations: dpkg-reconfigure locales, install bsdutils,
+debian-keyring, debian-archive-keyring, dialog, apt-utils, man-db,
+manpages and openssl. You might also want to run ssh-keygen -A,
+which generates host keys for any key type that does not already
+exist. (In some rare cases, you may need to change the permissions
+of /dev/tty to 0666 in order to get mksh to work.)
+
 Lower the system load average under FreeBSD:
 ```
 # sysctl kern.eventtimer.periodic=1
