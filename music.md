@@ -188,6 +188,7 @@ Jo Yeong-wook
 [Frank Sinatra: I Could Have Told You](https://www.youtube.com/watch?v=ppfVAOzKJxs)  
 [Frank Sinatra: I'll Never Smile Again](https://www.youtube.com/watch?v=-WKJLIILNOA)  
 [Frank Sinatra: I'm a Fool to Want You](https://www.youtube.com/watch?v=wV9OcYhk4CU)  
+[Frank Sinatra: Moonlight Serenade](https://www.youtube.com/watch?v=iQbAS5oRbEw)  
 [Frank Sinatra: What'll I Do](https://www.youtube.com/watch?v=Hh0ZPkleeq4)  
 [Frank Sinatra: When No One Cares](https://www.youtube.com/watch?v=LkmgZ4uptvw)  
 [Gil Scott-Heron: Me and the Devil](https://www.youtube.com/watch?v=OET8SVAGELA)  
