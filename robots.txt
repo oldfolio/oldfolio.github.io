@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /music.html
+Disallow: /zlinks.html
