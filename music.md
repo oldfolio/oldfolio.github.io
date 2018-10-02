@@ -22,7 +22,7 @@ Log in to [GitHub](https://github.com/login).
 [Bach: Partita 2 Dmin BWV 1004 Chaconne (Trotovsek)](https://www.youtube.com/watch?v=b5fmSVA4GA0)  
 [Bach: Partita 3](https://www.youtube.com/watch?v=3VOkrddp6M8)  
 [Bach: Violin Sonata in G minor: Adagio (BWV 1001) Lana Trotovsek](https://www.youtube.com/watch?v=TtLi6iz1svo)  
-[Bach: Violin Sonata in G minor: Fugue (BWV 1001) Lana Trotovsek](https://www.youtube.com/watch?v=RG7rx3BO6JY)  
+[Bach: Violin Sonata in G minor: Fugue (BWV 1001) Lana Trotovsek](https://www.youtube.com/watch?v=RG7rx3BO6JY) **  
 [Bach: Violin Sonata in G minor: Adagio & Fugue (BWV 1001) Niek Baar](https://www.youtube.com/watch?v=ORXOZ4VLBX8)  
 [Barber: Cello Concerto: Andante](https://www.youtube.com/watch?v=xBAVqwJHI1k)  
 [Barber: Cello Concerto: Andante (Garbousova)](https://www.youtube.com/watch?v=cNn1XlNg10k)  
