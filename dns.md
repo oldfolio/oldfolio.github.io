@@ -53,6 +53,8 @@ Go to https://www.opennic.org to see which of their DNS resolvers are closest to
 ```
 
 ## Free DNS Hosting
+[1984](https://1984hosting.com/): Cannot find any mention of limits.
+
 [Cloudflare](https://www.cloudflare.com/): Unlimited lookups; 3500 records per zone; cannot find limit on number of zones.
 
 [ClouDNS](https://www.cloudns.net/): 3 free zones; unlimited records and lookups; no control over TTL on free plans.
