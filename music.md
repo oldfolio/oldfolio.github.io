@@ -15,7 +15,7 @@ Log in to [GitHub](https://github.com/login).
 [Arutiunian: Violin Concerto: Mvt. 3](https://www.youtube.com/watch?v=_VHg3aUFblY)  
 [Bach: Double Violin Concerto in D minor](https://www.youtube.com/watch?v=teHzIUqs7uU)  
 [Bach: Partita 2](https://www.youtube.com/watch?v=6KaYzgofHjc)  
-[Bach: Partita 2 Dmin BWV 1004 (Trotovsek)](https://www.youtube.com/watch?v=KbX_keDZ3dg) 
+[Bach: Partita 2 Dmin BWV 1004 (Trotovsek)](https://www.youtube.com/watch?v=KbX_keDZ3dg)  
 [Bach: Partita 2 Dmin BWV 1004 I. Allemande](https://www.youtube.com/watch?v=tRvjqnY84q8)  
 [Bach: Partita 2 Dmin BWV 1004 Sarabande (Niek Baar)](https://www.youtube.com/watch?v=FJiXGtgIaT8)   
 [Bach: Partita 2 Dmin BWV 1004 Chaconne (Kyung Wha Chung)](https://www.youtube.com/watch?v=DEVLtf6J-g4)   
