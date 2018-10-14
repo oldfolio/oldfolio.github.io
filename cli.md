@@ -33,6 +33,8 @@ dig mx yandex.com @dns1.yandex.net
 Backup files in directory "source" to a remote server. The first time duplicity runs it will do a full backup. Subsequently, it will do an incremental backup of changes.
 ````
 duplicity --encrypt-key gpg-key /home/user/source sftp://host//home/user/target
+
+duplicity restore sftp://host//home/user/backup /home/user/local-restore-directory
 ````
 #### ELINKS
 If you enable one of the color modes, then \<shift\>-5 will cycle through the color schemes for that mode.
