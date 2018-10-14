@@ -29,6 +29,11 @@ Check the mx record for yandex.com at the name server dns1.yandex.net:
 ```
 dig mx yandex.com @dns1.yandex.net
 ```
+#### DUPLICITY
+Backup files in directory "source" to a remote server. The first time duplicity runs it will do a full backup. Subsequently, it will do an incremental backup of changes.
+````
+duplicity --encrypt-key gpg-key /home/mm/source sftp://host//home/user/target
+````
 #### ELINKS
 If you enable one of the color modes, then \<shift\>-5 will cycle through the color schemes for that mode.
 
