@@ -36,7 +36,7 @@ duplicity --encrypt-key gpg-key /home/user/source sftp://host//home/user/target
 
 duplicity restore sftp://host//home/user/backup /home/user/local-restore-directory
 ````
-On incremental backups, some versions of duplicity will return the following error message related to a GnuPG error:
+On incremental backups, some versions of duplicity will return the following error message related to GnuPG:
 ````
 Error processing remote manifest
 ````
