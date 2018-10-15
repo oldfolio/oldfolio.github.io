@@ -36,6 +36,12 @@ duplicity --encrypt-key gpg-key /home/user/source sftp://host//home/user/target
 
 duplicity restore sftp://host//home/user/backup /home/user/local-restore-directory
 ````
+On incremental backups, some versions of duplicity will return the following error message related to a GnuPG error:
+````
+Error processing remote manifest
+````
+This is a known and benign error message that does not indicate any failures in the backup.
+
 #### ELINKS
 If you enable one of the color modes, then \<shift\>-5 will cycle through the color schemes for that mode.
 
