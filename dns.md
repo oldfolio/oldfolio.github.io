@@ -53,9 +53,9 @@ Go to https://www.opennic.org to see which of their DNS resolvers are closest to
 ```
 
 ## Free DNS Hosting
-[1984](https://1984hosting.com/): Unlimited domains; cannot find limits on records per zone or lookups.
+[1984](https://1984hosting.com/): Unlimited domains; cannot find limits on records per zone or lookups. Supports DNSSEC
 
-[Cloudflare](https://www.cloudflare.com/): Unlimited lookups; 3500 records per zone; cannot find limit on number of zones.
+[Cloudflare](https://www.cloudflare.com/): Unlimited lookups; 3500 records per zone; cannot find limit on number of zones. Supports DNSSEC
 
 [ClouDNS](https://www.cloudns.net/): 3 free zones; unlimited records and lookups; no control over TTL on free plans.
 
