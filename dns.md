@@ -76,7 +76,7 @@ Add the DS records at your domain registrar.
 
 Disabling DNSSEC:  
 Remove the DS records at your domain registrar.  
-Wait at least 24 hours.  
+Wait 24 hours for most domains, but 48 hours for domains registered through EU.org. Do a "dig ds" check for the DS TTL on whatever domain from which you are removing DNSSEC.  
 Remove or disable DNSSEC at your DNS host.  
 
 Examples of DS records:  
