@@ -69,6 +69,16 @@ Go to https://www.opennic.org to see which of their DNS resolvers are closest to
 
 [Yandex](https://domain.yandex.com/): 50 free zones; cannot find limits on records per zone or lookups. No CAA records. (Although this service is aimed at people using Yandex to host their email, Yandex support explicitly states that you are free to host DNS without also hosting your email.) 
 
+#### DNSSEC
+Enabling DNSSEC:  
+Generate DNSSEC keys and DS records at your DNS host.  
+Add the DS records at your domain registrar.  
+
+Disabling DNSSEC:  
+Remove the DS records at your domain registrar.  
+Wait at least 24 hours.  
+Remove or disable DNSSEC at your DNS host.  
+
 #### DMARC Records
 ```
 _dmarc.domain.tld. IN TXT "v=DMARC1; p=none; rua=mailto:admin@domain.tld"
