@@ -79,9 +79,10 @@ Remove the DS records at your domain registrar.
 Wait at least 24 hours.  
 Remove or disable DNSSEC at your DNS host.  
 
-Example of a DS record:  
+Examples of DS records:  
 ```
-debian.org. 10762 IN DS 6487 8 2 A9528F2409C5F6A95AE6E0F8A6C5A223AC4EFD54B45884CB855F044E 82F7F4C6
+debian.org. 10762 IN DS 6487 8 2 A9528F2409C5F6A95AE6E0F8A6C5A223AC4EFD54B45884CB855F044E 82F7F4C6  
+yandex.com. 9595 IN DS 31456 5 1 593F529E8942948DE9D6646AC5F9E2208F49D606
 ````
 
 #### DMARC Records
