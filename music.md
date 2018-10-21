@@ -269,6 +269,7 @@ Jo Yeong-wook
 [Steve Earle: Meet Me in the Alleyway](https://www.youtube.com/watch?v=yorccRrntAY)  
 [Steve Winwood: Can't Find My Way Home](https://www.youtube.com/watch?v=eoSn2Y-b6wI)  
 [T Bone Burnett: Palestine, Texas](https://www.youtube.com/watch?v=QxZkxiqHHDA)  
+[Thomas Fraioli: Violin cover of Moanin](https://www.youtube.com/watch?v=d4NpuXTN-NA)  
 [Tom Jones: What is the Soul of a Man](https://www.youtube.com/watch?v=ly4i4HF2-pE)  
 [Tom Petty: Saving Grace](https://www.youtube.com/watch?v=vPYFWnzjIy0)  
 [Tragically Hip: 38 Years Old](https://www.youtube.com/watch?v=DbIZ1IuqCzU)  
