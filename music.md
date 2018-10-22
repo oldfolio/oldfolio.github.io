@@ -246,6 +246,7 @@ Jo Yeong-wook
 [Neil Young: Don't Let It Bring You Down](https://www.youtube.com/watch?v=F7letrMf_nE)  
 [Nick Drake: Day is Done](https://www.youtube.com/watch?v=Y2jxjv0HkwM)  
 [Nick Drake: Milk and Honey](https://www.youtube.com/watch?v=cm9wYWuQDA4)  
+[Nick Drake: Parasite](https://www.youtube.com/watch?v=R6xADXp-fUI)  
 [Nina Simone: Nobody's Fault But Mine](https://www.youtube.com/watch?v=VG9MmzbyB14)  
 [Odetta: House of the Rising Sun](https://www.youtube.com/watch?v=Aaya8jYZBO8)  
 [Odetta: Masters of War](https://www.youtube.com/watch?v=38dOYW7-B0E)  
