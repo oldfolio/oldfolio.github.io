@@ -76,3 +76,19 @@ Meta-l Make word lower case
 Meta-u Make word upper case 
 Meta-c Capitalize word
 ```
+Enriched Mode
+
+To enter enriched mode, open (*i.e*. 'visit') a new file and type:
+```
+Meta-x enriched-mode
+```
+If you open a file that was saved in enriched mode, it will automatically open in enriched mode. One problem I have run into is that it does not seem possible to edit a compressed file in enriched mode.
+
+Some enriched mode formatting reminders:
+```
+Meta-o-i   (Italic)  
+Meta-o-b   (Bold)  
+Meta-o-u   (Underline)  
+Meta-o-l   (Bold-Italic)  
+Meta-o-d   (Return to default text format)  
+```
