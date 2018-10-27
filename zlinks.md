@@ -2,6 +2,7 @@
 
 ## ZLINKS
 
+[Andrew Schwartzmeyer's Tech Blog](https://andschwa.com/post/)  
 [Chromium Browser for Windows](http://chromium.woolyss.com)  
 [Chromium Ungoogled](https://github.com/Eloston/ungoogled-chromium)  
 [Crontab Guru](https://crontab.guru/)  
