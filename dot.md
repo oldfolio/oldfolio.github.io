@@ -3,6 +3,8 @@ A collection of configuration files
 
 ~/.emacs.d/[init.el](dot-files/emacs.d-init.el.txt)
 
+~/[.forward](dot-files/forward.txt)
+
 ~/[.kshrc](dot-files/kshrc.txt)
 
 ~/[.mkshrc](dot-files/mkshrc.txt) additions
