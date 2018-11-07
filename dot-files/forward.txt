@@ -1,0 +1,4 @@
+# To keep a copy of forwarded messages in your local mailbox,
+# make your ~/.forward file look something like this:
+user@otherdomain.tld,\local-username
+
