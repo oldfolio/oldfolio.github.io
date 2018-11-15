@@ -18,6 +18,8 @@ Fossamail Archive ftp://archive.palemoon.org/fossamail/
 [joepie / Sven Slootweg](http://cryto.net/~joepie91/)  
 [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)  
 [Nginx Beginner's Guide](https://nginx.org/en/docs/beginners_guide.html)  
+[OpenNIC Project](https://www.opennic.org)  
+[OpenNIC Wiki](https://wiki.opennicproject.org/start)  
 [Pass](https://www.passwordstore.org/) The Ulitmate Unix Password Manager  
 [Project Gutenberg](https://www.gutenberg.org/)  
 [Remind Calendar Tips](http://www.43folders.com/2005/02/24/guest-mike-harris-looks-at-remind)  
