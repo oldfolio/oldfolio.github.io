@@ -7,6 +7,7 @@
 [Chromium Ungoogled](https://github.com/Eloston/ungoogled-chromium)  
 [Crontab Guru](https://crontab.guru/)  
 [Dark Classics](http://darkclassics.blogspot.com/) Art Blog  
+[DNS Performance](https://www.dnsperf.com)  
 [Dudle Scheduling Tool](https://dudle.inf.tu-dresden.de/)  
 [Emacs Enriched Faces](https://www.gnu.org/software/emacs/manual/html_node/emacs/Enriched-Faces.html#Enriched-Faces)  
 Fossamail Archive ftp://archive.palemoon.org/fossamail/   
