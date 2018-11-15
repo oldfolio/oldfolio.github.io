@@ -31,4 +31,5 @@ Fossamail Archive ftp://archive.palemoon.org/fossamail/
 [Troy Hunt: Have I been pwned?](https://haveibeenpwned.com/)  
 [Vim Downloads](http://vim.wikia.com/wiki/Where_to_download_Vim)  
 [Violin Tuner](http://www.violinonline.com/tune.htm)  
-
+[Weather: WLEX 18](https://lex18.com/category/weather/)  
+[Weather.com](https://weather.com/weather/today/l/40505:4:US)  
