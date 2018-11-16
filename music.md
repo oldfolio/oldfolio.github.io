@@ -182,6 +182,7 @@ Jo Yeong-wook
 [Elliott Smith: Tomorrow Tomorrow](https://www.youtube.com/watch?v=Ogg2RbPypug)  
 [Elliott Smith: Waltz #1](https://www.youtube.com/watch?v=6qNuGj6uAyg)  
 [Elton John: Sorry Seems to be the Hardest Word](https://www.youtube.com/watch?v=J2e4NlnLr28)  
+[Emily Remler: Firefly](https://www.youtube.com/watch?v=1XSvVmzC4PI)  
 [Everlast: Stone in My Hand](https://www.youtube.com/watch?v=NtmemsBdd_c)  
 [Frank Ocean: Bad Religion](https://www.youtube.com/watch?v=xlGibv97XWM)  
 [Frank Ocean: Pink Matter](https://www.youtube.com/watch?v=CQsUNvYBch0)  
