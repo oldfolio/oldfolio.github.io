@@ -266,6 +266,7 @@ Jo Yeong-wook
 [Sarah Fimm: Don't Let It Bring You Down](https://www.youtube.com/watch?v=l_oweHNsqWE)  
 [Serge Gainsbourg: Comme un boomerang](https://www.youtube.com/watch?v=xSIYK1Cg9Q4)  
 [The Sofa Prophets: Find the Cost of Freedom](https://www.youtube.com/watch?v=bcdoivJcbTw)  
+[Stan Getz: Samba Triste](https://www.youtube.com/watch?v=Ze-3pE3vSjc)  
 [Steinar Raknes: Tear Down My Stillhouse](https://www.youtube.com/watch?v=gP8CotCXEQ8)  
 [Steve Earle: Meet Me in the Alleyway](https://www.youtube.com/watch?v=yorccRrntAY)  
 [Steve Winwood: Can't Find My Way Home](https://www.youtube.com/watch?v=eoSn2Y-b6wI)  
