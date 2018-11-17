@@ -1,7 +1,8 @@
 ## Dot Files
 A collection of configuration files
 
-~/.emacs.d/[init.el](dot-files/emacs.d-init.el.txt)
+~/.emacs.d/[init.el](dot-files/emacs.d-init.el.txt)  
+~/.emacs.d/el/[typopunct.el](dot-files/typopunct.el)  
 
 ~/[.forward](dot-files/forward.txt)
 
