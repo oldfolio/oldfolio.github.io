@@ -15,6 +15,7 @@ If you wish to use U2F keys on a Debian-based system, you may need to add the fo
 
 ~/[.mkshrc](dot-files/mkshrc.txt) additions
 
+~/.ssh/[authorized_keys](dot-files/authorized_keys.txt)  
 ~/.ssh/[config](dot-files/ssh-config.txt)
 
 ~/[.tcshrc](dot-files/tcshrc.txt)
