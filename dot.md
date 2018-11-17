@@ -14,8 +14,7 @@ A collection of configuration files
 
 ~/[.tcshrc](dot-files/tcshrc.txt)
 
-~/.vim/[gvimrc](dot-files/gvimrc.txt)
-
+~/.vim/[gvimrc](dot-files/gvimrc.txt)  
 ~/.vim/[vimrc](dot-files/vimrc.txt)
 
 - - - 
