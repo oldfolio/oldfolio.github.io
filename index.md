@@ -1,5 +1,7 @@
 # Notes to Myself
 
+[Alpine Email Client](alpine.md)
+
 [Command Line Notes](cli.md)
 
 [DNS](dns.md)
