@@ -1,6 +1,8 @@
 ## Dot Files
 A collection of configuration files
 
+/etc/fonts/[local.conf](dot-files/fonts-local.conf)
+
 ~/.emacs.d/[init.el](dot-files/emacs.d-init.el.txt)  
 ~/.emacs.d/el/[typopunct.el](dot-files/typopunct.el)  
 
