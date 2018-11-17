@@ -3,6 +3,7 @@ A collection of configuration files
 
 /etc/fonts/[local.conf](dot-files/fonts-local.conf)
 
+If you wish to use U2F keys on a Debian-based system, you may need to add the following file:  
 /etc/udev/rules.d/[70-u2f.rules](dot-files/70-u2f.rules)  
 
 ~/.emacs.d/[init.el](dot-files/emacs.d-init.el.txt)  
