@@ -173,5 +173,10 @@ include:zoho.com
 ```
 Multiple "include" example:
 ```
-domain.com. IN TXT "v=spf1 include:_spf.yandex.net include:spf.messagingengine.com -all"
+domain.tld. IN TXT "v=spf1 include:_spf.yandex.net include:spf.messagingengine.com -all"
 ```
+Multiple servers: Accept mail from the server specified in the mail server's A record as well as from any server specified by the SPF record for Yandex.
+```
+domain.tld. IN TXT "v=spf1 a:mail-server.domain.tld include:_spf.yandex.net ~all"
+```
+
