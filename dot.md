@@ -3,6 +3,8 @@ A collection of configuration files
 
 /etc/fonts/[local.conf](dot-files/fonts-local.conf)
 
+/etc/udev/rules.d/[70-u2f.rules](dot-files/70-u2f.rules)  
+
 ~/.emacs.d/[init.el](dot-files/emacs.d-init.el.txt)  
 ~/.emacs.d/el/[typopunct.el](dot-files/typopunct.el)  
 
