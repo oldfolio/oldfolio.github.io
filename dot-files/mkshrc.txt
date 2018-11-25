@@ -9,3 +9,5 @@ LANG=en_US.UTF-8
 export LANG
 CHARSET=en_US.UTF-8
 export CHARSET
+TZ='America/New_York'
+export TZ
