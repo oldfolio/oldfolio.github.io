@@ -7,11 +7,14 @@
 [Chromium Ungoogled](https://github.com/Eloston/ungoogled-chromium)  
 [Crontab Guru](https://crontab.guru/)  
 [Dark Classics](http://darkclassics.blogspot.com/) Art Blog  
+[Debian Package Management](http://newbiedoc.sourceforge.net/tutorials/apt-get-intro/info.html)  
 [DNS Performance](https://www.dnsperf.com)  
 [Dudle Scheduling Tool](https://dudle.inf.tu-dresden.de/)  
 [Emacs Enriched Faces](https://www.gnu.org/software/emacs/manual/html_node/emacs/Enriched-Faces.html#Enriched-Faces)  
+[Fastmail](https://www.fastmail.com)  
 Fossamail Archive ftp://archive.palemoon.org/fossamail/   
 [Fowler: The King's English](https://www.bartleby.com/116/)  
+[Gmail](https://accounts.google.com/signin/v2/identifier?service=mail)  
 [Gopher Extensions for Contemporary Browsers](https://gopher.floodgap.com/overbite/) Notice Burrow Gopherspace Explorer for Chrome  
 [Gopher Proxy at Floodgap](http://gopher.floodgap.com/gopher/)  
 [IP Lookup](https://whatismyipaddress.com/ip-lookup)  
