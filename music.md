@@ -239,6 +239,7 @@ Jo Yeong-wook
 [Lupe Fiasco: Around My Way](https://www.youtube.com/watch?v=S77zUWqawag)  
 [Mark Lanegan: Harvest Home](https://www.youtube.com/watch?v=UJhR1tg8Ih8)  
 [Mark Lanegan: No Cross to Carry](https://www.youtube.com/watch?v=aRKAQgvt7_4)  
+[Miles Davis: Blue in Green (from album Kind of Blue)](https://www.youtube.com/watch?v=PoPL7BExSQU)  
 [Myles Kennedy / Slash: Far and Away](https://www.youtube.com/watch?v=Z7Id_zTgki4)  
 
 #### N - Z
