@@ -240,6 +240,7 @@ Jo Yeong-wook
 [Mark Lanegan: Harvest Home](https://www.youtube.com/watch?v=UJhR1tg8Ih8)  
 [Mark Lanegan: No Cross to Carry](https://www.youtube.com/watch?v=aRKAQgvt7_4)  
 [Miles Davis: Blue in Green](https://www.youtube.com/watch?v=PoPL7BExSQU) (from album Kind of Blue)  
+[Miles Davis: Kind of Blue](https://www.youtube.com/watch?v=0fC1qSxpmKo) (full album)  
 [Myles Kennedy / Slash: Far and Away](https://www.youtube.com/watch?v=Z7Id_zTgki4)  
 
 #### N - Z
