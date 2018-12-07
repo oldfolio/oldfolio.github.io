@@ -25,6 +25,7 @@ Fossamail Archive ftp://archive.palemoon.org/fossamail/
 [OpenNIC Project](https://www.opennic.org)  
 [OpenNIC Wiki](https://wiki.opennicproject.org/start)  
 [Pass](https://www.passwordstore.org/) The Ulitmate Unix Password Manager  
+[Pens: Lamy Safari with Pilot G-2 Refill](https://www.edcforums.com/threads/pilot-g2-refill-hack-for-lamy-safari-rollerball.137413/)  
 [Project Gutenberg](https://www.gutenberg.org/)  
 [Remind Calendar Tips](http://www.43folders.com/2005/02/24/guest-mike-harris-looks-at-remind)  
 [Remind Calendar Wiki](https://www.roaringpenguin.com/wiki/index.php/Remind)  
