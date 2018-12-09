@@ -1,4 +1,6 @@
 ## Public DNS Resolvers
+View performance statistics for public DNS resolvers at [DNSPerf](https://www.dnsperf.com/#!dns-resolvers).  
+
 #### CloudFlare
 ```
 1.1.1.1
