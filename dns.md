@@ -1,5 +1,5 @@
 ## Public DNS Resolvers
-View performance statistics for public DNS resolvers at [DNSPerf](https://www.dnsperf.com/#!dns-resolvers).  
+View performance statistics for public DNS resolvers at [DNSPerf](https://www.dnsperf.com/#!dns-resolvers). The statistics reported at [DNSPerf](https://www.dnsperf.com/#!dns-resolvers) tend to be very similar to the results I get using the [namebench](https://code.google.com/archive/p/namebench/) tool.  
 
 #### CloudFlare
 ```
