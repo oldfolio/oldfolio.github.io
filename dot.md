@@ -5,6 +5,8 @@ A collection of configuration files
 
 If you wish to use U2F keys on a Debian-based system, you may need to add the following file:  
 /etc/udev/rules.d/[70-u2f.rules](dot-files/70-u2f.rules)  
+The above file is a copy of a working rules file that I have used under Debian 8 and 9. To make sure you have the latest version of the file, you should grab it from Yubico's GitHub page:  
+/etc/udev/rules.d/[70-u2f.rules](https://github.com/Yubico/libu2f-host/blob/master/70-u2f.rules)  
 
 ~/.emacs.d/[init.el](dot-files/emacs.d-init.el.txt)  
 ~/.emacs.d/el/[typopunct.el](dot-files/typopunct.el)  
