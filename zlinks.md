@@ -13,7 +13,7 @@
 [Emacs Enriched Faces](https://www.gnu.org/software/emacs/manual/html_node/emacs/Enriched-Faces.html#Enriched-Faces)  
 [Email: Fastmail](https://www.fastmail.com)  
 [Email: Gmail](https://accounts.google.com/signin/v2/identifier?service=mail)  
-[Email: Runbox](https://runbox.com/mail)  
+[Email: Runbox](https://runbox.com)  
 Fossamail Archive ftp://archive.palemoon.org/fossamail/   
 [Fowler: The King's English](https://www.bartleby.com/116/)  
 [Gopher Extensions for Contemporary Browsers](https://gopher.floodgap.com/overbite/) Notice Burrow Gopherspace Explorer for Chrome  
