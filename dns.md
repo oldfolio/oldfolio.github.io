@@ -165,6 +165,10 @@ PolarisMail
 ```
 include:emailarray.com
 ```
+Runbox
+```
+include:spf.runbox.com
+```
 Yandex
 ```
 include:_spf.yandex.net
