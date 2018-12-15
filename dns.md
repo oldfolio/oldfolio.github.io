@@ -135,6 +135,10 @@ PolarisMail
 IN MX 5 mx.emailarray.com.
 IN MX 10 mx2.emailarray.com.
 ```
+Runbox
+```
+IN MX 10 mx.runbox.com.
+```
 Yandex
 ```
 IN MX 10 mx.yandex.net.
