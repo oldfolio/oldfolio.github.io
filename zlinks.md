@@ -14,6 +14,7 @@
 [Email: Fastmail](https://www.fastmail.com)  
 [Email: Gmail](https://accounts.google.com/signin/v2/identifier?service=mail)  
 [Email: Runbox](https://runbox.com)  
+[Email Forwarding Service](https://forwardemail.net/)  
 Fossamail Archive ftp://archive.palemoon.org/fossamail/   
 [Fowler: The King's English](https://www.bartleby.com/116/)  
 [Gopher Extensions for Contemporary Browsers](https://gopher.floodgap.com/overbite/) Notice Burrow Gopherspace Explorer for Chrome  
