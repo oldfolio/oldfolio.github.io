@@ -18,6 +18,7 @@
 It looks like email forwarding will break SPF since the forwarding service is usually not authorized to send on behalf of the originating email account, but if you want to try it...  
 [Email Forwarding Service](https://forwardemail.net/) (no cost)  
 [Email Forwarding Service](https://forwardmx.io/) (starting at $9 per year)  
+[Email Forwarding Service](https://www.pobox.com) (starting at $20 per year) I would bet that Pobox has more sophisticated ways of handling authentication issues, but I have not tried it. Once you start getting into the $20 per year range, you might consider going with full email hosting.
 
 Fossamail Archive ftp://archive.palemoon.org/fossamail/   
 [Fowler: The King's English](https://www.bartleby.com/116/)  
