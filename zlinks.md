@@ -47,6 +47,7 @@ Fossamail Archive ftp://archive.palemoon.org/fossamail/
 [Top Level Domain Popularity](https://w3techs.com/technologies/overview/top_level_domain/all)  
 [Troy Hunt Blog](http://www.troyhunt.com/)  
 [Troy Hunt: Email Fundamentals](https://www.troyhunt.com/10-email-security-fundamentals-for/)  
+[Two-Factor: Services that Support 2FA](https://twofactorauth.org/)  
 [Troy Hunt: Have I been pwned?](https://haveibeenpwned.com/)  
 [Vim Downloads](http://vim.wikia.com/wiki/Where_to_download_Vim)  
 [Violin Tuner](http://www.violinonline.com/tune.htm)  
