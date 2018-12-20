@@ -14,7 +14,7 @@
 [Email: Fastmail](https://www.fastmail.com)  
 [Email: G Suite Reseller Promevo](http://www.promevo.com/index.html)  
 [Email: Gmail](https://accounts.google.com/signin/v2/identifier?service=mail)  
-[Email: Gmail Unlock Captcha](https://support.google.com/accounts/answer/2461835?hl=en) See [DisplayUnlockCaptcha](https://accounts.google.com/DisplayUnlockCaptcha) link under, "If you're having trouble..."  
+[Email: Gmail Unlock Captcha](https://support.google.com/accounts/answer/2461835?hl=en): See [DisplayUnlockCaptcha](https://accounts.google.com/DisplayUnlockCaptcha) link under, "If you're having trouble..."  
 [Email: Runbox](https://runbox.com)  
 
 It looks like email forwarding will break SPF since the forwarding service is usually not authorized to send on behalf of the originating email account, but if you want to try it...  
