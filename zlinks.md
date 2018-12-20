@@ -12,6 +12,7 @@
 [Dudle Scheduling Tool](https://dudle.inf.tu-dresden.de/)  
 [Emacs Enriched Faces](https://www.gnu.org/software/emacs/manual/html_node/emacs/Enriched-Faces.html#Enriched-Faces)  
 [Email: Fastmail](https://www.fastmail.com)  
+[Email: G Suite Reseller Promevo](http://www.promevo.com/index.html)  
 [Email: Gmail](https://accounts.google.com/signin/v2/identifier?service=mail)  
 [Email: Runbox](https://runbox.com)  
 
