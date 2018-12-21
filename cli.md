@@ -29,6 +29,13 @@ Check the mx record for yandex.com at the name server dns1.yandex.net:
 ```
 dig mx yandex.com @dns1.yandex.net
 ```
+
+#### DMIDECODE
+Display harware information (See [this guide](https://www.howtoforge.com/dmidecode-finding-out-hardware-details-without-opening-the-computer-case)). To display memory information:
+```
+dmidecode -t memory
+```
+
 #### DUPLICITY
 Backup files in directory "source" to a remote server. The first time duplicity runs it will do a full backup. Subsequently, it will do an incremental backup of changes.
 ````
