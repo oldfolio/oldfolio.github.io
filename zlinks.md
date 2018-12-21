@@ -45,6 +45,7 @@ Fossamail Archive ftp://archive.palemoon.org/fossamail/
 [Skyrim Free Housing](https://tamrielvault.com/groups/topic/view/group_id/6/topic_id/5892)  
 [Skyrim UESP Wiki](http://en.uesp.net/wiki/Skyrim:Skyrim)  
 [Soviet Art](http://ussrpainting.blogspot.com)  
+[strftime Reference](http://strftime.org/)  
 [Tom O'Bedlam: Spoken Verse](https://www.youtube.com/user/SpokenVerse/featured)  
 [Top Level Domain Popularity](https://w3techs.com/technologies/overview/top_level_domain/all)  
 [Troy Hunt Blog](http://www.troyhunt.com/)  
