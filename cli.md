@@ -31,7 +31,7 @@ dig mx yandex.com @dns1.yandex.net
 ```
 
 #### DMIDECODE
-Display harware information (See [this guide](https://www.howtoforge.com/dmidecode-finding-out-hardware-details-without-opening-the-computer-case)). To display memory information:
+Display hardware information (See [this guide](https://www.howtoforge.com/dmidecode-finding-out-hardware-details-without-opening-the-computer-case)). To display memory information:
 ```
 dmidecode -t memory
 ```
