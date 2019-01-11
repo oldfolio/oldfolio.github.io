@@ -278,6 +278,7 @@ Jo Yeong-wook
 [Thomas Fraioli: Violin cover of Moanin](https://www.youtube.com/watch?v=d4NpuXTN-NA)  
 [Tom Jones: What is the Soul of a Man](https://www.youtube.com/watch?v=ly4i4HF2-pE)  
 [Tom Petty: Saving Grace](https://www.youtube.com/watch?v=vPYFWnzjIy0)  
+[Tommy Emmanuel: Classical Gas](https://www.youtube.com/watch?v=S33tWZqXhnk)  
 [Tragically Hip: 38 Years Old](https://www.youtube.com/watch?v=DbIZ1IuqCzU)  
 [Tragically Hip: At the Hundredth Meridian](https://www.youtube.com/watch?v=6rnXo14Rqf0)  
 [Tragically Hip: Cordelia](https://www.youtube.com/watch?v=FWWgyeJGyH8)  
