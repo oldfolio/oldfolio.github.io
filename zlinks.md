@@ -33,6 +33,7 @@ Fossamail Archive ftp://archive.palemoon.org/fossamail/
 [Nginx Beginner's Guide](https://nginx.org/en/docs/beginners_guide.html)  
 [OpenNIC Project](https://www.opennic.org)  
 [OpenNIC Wiki](https://wiki.opennicproject.org/start)  
+[OpenStreetMap](http://www.openstreetmap.org/)  
 [Pass](https://www.passwordstore.org/) The Ulitmate Unix Password Manager  
 [Password test zxcvbn, v.1](https://lowe.github.io/tryzxcvbn/)  
 [Password test zxcvbn, v.2](https://www.takecontrolbooks.com/resources/0148/zxcvbn/)  
