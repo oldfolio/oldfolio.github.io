@@ -90,6 +90,7 @@ Jo Yeong-wook
 [Stravinsky: Elegy (Violin Solo)](https://www.youtube.com/watch?v=QDx_d2K8bPY)  
 [Stravinsky: Firebird Suite (Stravinsky conducts 1965)](https://www.youtube.com/watch?v=5tGA6bpscj8)  
 [Stravinsky: Firebird Suite (1919)](https://www.youtube.com/watch?v=je31k6COkzU)  
+[Stravinsky: Firebird Suite (Abbado, London Symphony Orchestra)](https://www.youtube.com/watch?v=PWOpWu9MnZk)  
 [Stravinsky: Firebird (Lullaby)](https://www.youtube.com/watch?v=ph9H17_HPTE)  
 [Stravinsky: The Rite of Spring](https://www.youtube.com/watch?v=FFPjFjUonX8)  
 [Tartini: Devil's Trill Sonata](https://www.youtube.com/watch?v=z7rxl5KsPjs)  
