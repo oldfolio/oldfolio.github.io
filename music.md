@@ -184,6 +184,7 @@ Jo Yeong-wook
 [Elliott Smith: Waltz #1](https://www.youtube.com/watch?v=6qNuGj6uAyg)  
 [Elton John: Sorry Seems to be the Hardest Word](https://www.youtube.com/watch?v=J2e4NlnLr28)  
 [Emily Remler: Blues for Herb](https://www.youtube.com/watch?v=bVGTMvBQZcc)  
+[Emily Remler: Blues for Herb (3:19)](https://www.youtube.com/watch?v=CqC8Cs_tgA4)  
 [Emily Remler: Firefly](https://www.youtube.com/watch?v=1XSvVmzC4PI)  
 [Everlast: Stone in My Hand](https://www.youtube.com/watch?v=NtmemsBdd_c)  
 [Frank Ocean: Bad Religion](https://www.youtube.com/watch?v=xlGibv97XWM)  
