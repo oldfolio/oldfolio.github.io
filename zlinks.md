@@ -62,6 +62,6 @@ Fossamail Archive ftp://archive.palemoon.org/fossamail/
 
 ---
 
-[Testing, testing...](http://balsa.oed2.com:11349)  
+[Testing, testing...](http://testing.oldfolio.org:11349)  
 
 
