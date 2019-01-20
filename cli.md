@@ -24,6 +24,22 @@ date 1705
 ```
 will change the time to 5:05 pm and leave the date unchanged.
 
+#### DD
+Overwrite with zeroes a 133 byte file:
+```
+dd if=/dev/zero of=filename count=1 bs=133
+```
+Overwrite with zeroes a 1 MB byte file:
+```
+dd if=/dev/zero of=storage-bin count=1K bs=1024
+```
+Overwrite with zeroes a 1 GB byte file:
+```
+dd if=/dev/zero of=storage-bin count=1024K bs=1024
+dd if=/dev/zero of=storage-bin count=1M bs=1024
+```
+On my home system, /dev/zero can be used to generate a 10G file in about 45 seconds. By contrast, /dev/urandom will take about three minutes. Do not even bother with /dev/random.
+
 #### DIG
 Check the mx record for yandex.com at the name server dns1.yandex.net:
 ```
@@ -269,16 +285,3 @@ echo 3 > /proc/sys/vm/drop_caches
 ```
 Do a searchon "drop_caches" for additional information, including the differences between echo 1, echo 2, and echo 3.
 
-Overwrite with zeroes a 133 byte file:
-```
-dd if=/dev/zero of=filename count=1 bs=133
-```
-Overwrite with zeroes a 1 MB byte file:
-```
-dd if=/dev/zero of=storage-bin count=1K bs=1024
-```
-Overwrite with zeroes a 1 GB byte file:
-```
-dd if=/dev/zero of=storage-bin count=1024K bs=1024
-dd if=/dev/zero of=storage-bin count=1M bs=1024
-```
