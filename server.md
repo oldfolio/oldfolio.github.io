@@ -163,7 +163,9 @@ will be made available in the following ports:
 
 ===========================================================================
 ```
-It is important to remember that **THE NGINX SERVER MUST BE STOPPED** when you are running the stand-alone version of certbot. With nginx stopped, run
+**IMPORTANT:** The default server (usually the first specified site in /etc/nginx/sites-enabled/, and often /etc/nginx/sites-enabled/default) **MUST** be accessible over SSL with a valid SSL certificate for SSL to work with any other sites enabled.
+
+It is also important to remember that **THE NGINX SERVER MUST BE STOPPED** when you are running the stand-alone version of certbot. With nginx stopped, run
 ```
 certbot certonly --standalone -d www.domain.tld
 ```
