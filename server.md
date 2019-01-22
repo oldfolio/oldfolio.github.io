@@ -165,7 +165,9 @@ will be made available in the following ports:
 ```
 **IMPORTANT:** The default server (usually the first specified site in /etc/nginx/sites-enabled/, and often /etc/nginx/sites-enabled/default) **MUST** be accessible over SSL with a valid SSL certificate for SSL to work with any other sites enabled.
 
-It is also important to remember that **THE NGINX SERVER MUST BE STOPPED** when you are running the stand-alone version of certbot. With nginx stopped, run
+It is also important to remember that **THE NGINX SERVER MUST BE STOPPED** when you are running the stand-alone version of certbot.
+
+With nginx stopped, run
 ```
 certbot certonly --standalone -d www.domain.tld
 ```
@@ -199,6 +201,7 @@ In order to implement HTTPS on one of your sites, create two server blocks in th
 ```
 server {
   listen 80;
+  listen [::]:80;
   root /path/to/site-root;
   server_name www.domain.tld;
   return 301 https://$server_name$request_uri;
@@ -210,8 +213,8 @@ The second should look something like this:
 server {
   root /path/to/site-root;
   server_name www.domain.tld;
-  listen 443;
-  ssl on;
+  listen 443 ssl;
+  listen [::]:443 ssl;
   ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
   ssl_ciphers 'ECDHE-RSA-AES128-GCM-SHA256: ... ';
   ssl_prefer_server_ciphers on;
