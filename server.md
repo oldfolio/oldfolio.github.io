@@ -1,6 +1,6 @@
 ## Server
 #### SSH Configuration
-After you have set up an ordinary user who can su to the root user (_i.e._, is a member of the wheel group in FreeBSD), you should disbale root logins, by adding the following line:
+After you have set up an ordinary user who can su to the root user (_i.e._, is a member of the wheel group in FreeBSD), you should disable root logins, by adding the following line:
 ```
 PermitRootLogin no
 ```
