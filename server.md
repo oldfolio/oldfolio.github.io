@@ -215,7 +215,7 @@ server {
   server_name www.domain.tld;
   listen 443 ssl;
   listen [::]:443 ssl;
-  ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+  ssl_protocols TLSv1.1 TLSv1.2;
   ssl_ciphers 'ECDHE-RSA-AES128-GCM-SHA256: ... ';
   ssl_prefer_server_ciphers on;
   ssl_certificate /usr/local/etc/letsencrypt/live/www.domain.tld/fullchain.pem;
