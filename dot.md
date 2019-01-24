@@ -13,6 +13,12 @@ The above file is a copy of a working rules file that I have used under Debian 8
 
 ~/[.forward](dot-files/forward.txt)
 
+~/.gnupg/[gpg-agent.conf](dot-files/gpg-agent.conf.txt)  
+Whenever you make changes to gpg-agent.conf, you should reload the agent:
+```
+$ gpg-connect-agent reloadagent /bye
+```
+
 ~/[.kshrc](dot-files/kshrc.txt)
 
 ~/[.mkshrc](dot-files/mkshrc.txt) additions
