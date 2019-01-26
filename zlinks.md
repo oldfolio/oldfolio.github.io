@@ -3,6 +3,8 @@
 ## ZLINKS
 
 [Andrew Schwartzmeyer's Tech Blog](https://andschwa.com/post/)  
+[Art: Soviet Art](http://ussrpainting.blogspot.com)  
+[Art: WikiGallery](http://www.wikigallery.org/wiki/Main_Page)  
 [Chromium Browser for Windows](http://chromium.woolyss.com)  
 [Chromium Ungoogled](https://github.com/Eloston/ungoogled-chromium)  
 [Crontab Guru](https://crontab.guru/)  
@@ -45,7 +47,6 @@ Fossamail Archive ftp://archive.palemoon.org/fossamail/
 [Shell Comparison](http://hyperpolyglot.org/unix-shells)  
 [Skyrim Free Housing](https://tamrielvault.com/groups/topic/view/group_id/6/topic_id/5892)  
 [Skyrim UESP Wiki](http://en.uesp.net/wiki/Skyrim:Skyrim)  
-[Soviet Art](http://ussrpainting.blogspot.com)  
 [strftime Reference](http://strftime.org/)  
 [TechCrunch](https://techcrunch.com/)  
 [Techmeme](https://www.techmeme.com/)  
