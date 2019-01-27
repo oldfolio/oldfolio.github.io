@@ -3,12 +3,12 @@
 ## ZLINKS
 
 [Andrew Schwartzmeyer's Tech Blog](https://andschwa.com/post/)  
+[Art: Dark Classics](http://darkclassics.blogspot.com/)  
 [Art: Soviet Art](http://ussrpainting.blogspot.com)  
 [Art: WikiGallery](http://www.wikigallery.org/wiki/Main_Page)  
 [Chromium Browser for Windows](http://chromium.woolyss.com)  
 [Chromium Ungoogled](https://github.com/Eloston/ungoogled-chromium)  
 [Crontab Guru](https://crontab.guru/)  
-[Dark Classics](http://darkclassics.blogspot.com/) Art Blog  
 [Debian Package Management](http://newbiedoc.sourceforge.net/tutorials/apt-get-intro/info.html)  
 [DNS Performance](https://www.dnsperf.com)  
 [Dudle Scheduling Tool](https://dudle.inf.tu-dresden.de/)  
