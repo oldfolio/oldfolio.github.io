@@ -143,7 +143,7 @@ Jo Yeong-wook
 [Bettye LaVette: It Don't Come Easy](https://www.youtube.com/watch?v=zNVqhMcPA3o)  
 [Bettye LaVette: Sleep to Dream](https://www.youtube.com/watch?v=HaFypvv6fA8)  
 [Bettye LaVette: Talking Old Soldiers](https://www.youtube.com/watch?v=gLbz5PtYvo0)  
-[Bettye LaVette: Things Have Changed](https://www.youtube.com/watch?v=AUK8ZQD5GYo)  
+[Bettye LaVette: Things Have Changed](https://www.youtube.com/watch?v=e2K8HdJ3JtI)  
 [Bill Withers: Ain't No Sunshine](https://www.youtube.com/watch?v=tIdIqbv7SPo)  
 [Bill Withers: Use Me](https://www.youtube.com/watch?v=NcFaVfTDWcs)  
 [Bill Withers: Who Is He](https://www.youtube.com/watch?v=_u5UcarxQmc)  
