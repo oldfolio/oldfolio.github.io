@@ -35,8 +35,8 @@ dd if=/dev/zero of=storage-bin count=1K bs=1024
 ```
 Overwrite with zeroes a 1 GB byte file:
 ```
-dd if=/dev/zero of=storage-bin count=1024K bs=1024
-dd if=/dev/zero of=storage-bin count=1M bs=1024
+dd status=progress if=/dev/zero of=storage-bin count=1024K bs=1024
+dd status=progress if=/dev/zero of=storage-bin count=1M bs=1024
 ```
 On my home system, /dev/zero can be used to generate a 10G file in about 45 seconds. By contrast, /dev/urandom will take about three minutes. Do not even bother with /dev/random.
 
