@@ -28,6 +28,7 @@ Fossamail Archive ftp://archive.palemoon.org/fossamail/
 [Fowler: The King's English](https://www.bartleby.com/116/)  
 [Gopher Extensions for Contemporary Browsers](https://gopher.floodgap.com/overbite/) Notice Burrow Gopherspace Explorer for Chrome  
 [Gopher Proxy at Floodgap](http://gopher.floodgap.com/gopher/)  
+[Gopher via SeaMonkey](https://www.seamonkey-project.org/releases/#old_unofficial) You can still download legacy versions of SeaMonkey that came with built-in support for gopher.  
 [IP Lookup](https://whatismyipaddress.com/ip-lookup)  
 [IP to CIDR Conversion](http://ip2cidr.com/)  
 [joepie / Sven Slootweg](http://cryto.net/~joepie91/)  
