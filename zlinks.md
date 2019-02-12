@@ -14,6 +14,7 @@
 [Dudle Scheduling Tool](https://dudle.inf.tu-dresden.de/)  
 [Emacs Enriched Faces](https://www.gnu.org/software/emacs/manual/html_node/emacs/Enriched-Faces.html#Enriched-Faces)  
 [Email: Fastmail](https://www.fastmail.com)  
+[Email: Fastmail Status](https://www.fastmailstatus.com/)  
 [Email: G Suite Reseller Promevo](http://www.promevo.com/index.html)  
 [Email: Gmail](https://accounts.google.com/signin/v2/identifier?service=mail)  
 [Email: Gmail Unlock Captcha](https://support.google.com/accounts/answer/2461835?hl=en): See [DisplayUnlockCaptcha](https://accounts.google.com/DisplayUnlockCaptcha) link under, "If you're having trouble..."  
