@@ -49,6 +49,7 @@ Fossamail Archive ftp://archive.palemoon.org/fossamail/
 [Raverat Print and Engraving Archive](https://www.raverat.com/)  
 [Remind Calendar Tips](http://www.43folders.com/2005/02/24/guest-mike-harris-looks-at-remind)  
 [Remind Calendar Wiki](https://www.roaringpenguin.com/wiki/index.php/Remind)  
+[S/MIME Certificates](https://www.instantssl.com/ssl-certificate-products/free-email-certificate.html): As far as I know, this is the only remaining way to get a free S/MIME certificate.  
 [Shell Comparison](http://hyperpolyglot.org/unix-shells)  
 [Skyrim Free Housing](https://tamrielvault.com/groups/topic/view/group_id/6/topic_id/5892)  
 [Skyrim UESP Wiki](http://en.uesp.net/wiki/Skyrim:Skyrim)  
