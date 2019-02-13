@@ -64,6 +64,8 @@ Fossamail Archive ftp://archive.palemoon.org/fossamail/
 [Two-Factor: Services that Support 2FA](https://twofactorauth.org/)  
 [Vim Downloads](http://vim.wikia.com/wiki/Where_to_download_Vim)  
 [Violin Tuner](http://www.violinonline.com/tune.htm)  
+VPS Provider: [prgmr.com](https://prgmr.com/xen/)  
+VPS Provider: [TinyKVM](https://tinykvm.com)  
 [Weather: WLEX 18](https://lex18.com/category/weather/)  
 [Weather.com](https://weather.com/weather/today/l/40505:4:US)  
 
