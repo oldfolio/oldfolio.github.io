@@ -16,6 +16,7 @@
 
 Search Engines:  
 [DuckDuckGo HTML](https://duckduckgo.com/html/?kae=b&kg=p)  
+[Mojeek](https://www.mojeek.com/)  
 [Search Encrypt](https://www.searchencrypt.com/)  
 [StartPage](https://www.startpage.com/)  
 [Yandex](https://www.yandex.com/)
