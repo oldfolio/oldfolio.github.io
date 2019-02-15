@@ -1,6 +1,9 @@
 ## Dot Files
 A collection of configuration files
 
+If you need to force apt to use IPv4:   
+/etc/apt/apt.conf.d/[99force-ipv4](dot-files/99force-ipv4.txt)  
+
 /etc/fonts/[local.conf](dot-files/fonts-local.conf)
 
 If you wish to use U2F keys on a Debian-based system, you may need to add the following file:  
