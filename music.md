@@ -76,6 +76,7 @@ Jo Yeong-wook
 [Rachmaninoff: Prelude in C-sharp minor](https://www.youtube.com/watch?v=SCm9O2KNEX4)  
 [Ravel: Rapsodie Espagnole](https://www.youtube.com/watch?v=zjZ-ssOL1pc)  
 [Ravel: String Quartet in F major](https://www.youtube.com/watch?v=ieRQyyPowH0)  
+[Ravel: Trio pour piano, violon et violoncelle: I. Modéré](https://www.youtube.com/watch?v=S4v9zGEqPz0) (Anne-Lise Gastaldi, Nadine Pierre, Virginie Buscail)  
 [Max Richter: On the Nature of Daylight](https://www.youtube.com/watch?v=rVN1B-tUpgs)  
 [Roussel: Bacchus et Ariane](https://www.youtube.com/watch?v=qhdaXfa55kY)  
 [Roussel: Festin de l'Araignee](https://www.youtube.com/watch?v=A15DUjwoong)  
