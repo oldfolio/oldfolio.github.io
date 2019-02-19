@@ -33,6 +33,8 @@ Fossamail Archive ftp://archive.palemoon.org/fossamail/
 [Gopher Proxy at Floodgap](http://gopher.floodgap.com/gopher/)  
 [Gopher via SeaMonkey](https://www.seamonkey-project.org/releases/#old_unofficial): You can still download legacy versions of SeaMonkey that came with built-in support for gopher (i.e. up through version 2.0.x). Of course, SeaMonkey still uses Gecko so the *current* version will display gopher if you install [OverbiteFF](https://gopher.floodgap.com/overbite/d?ff38).  
 
+
+[GUIdebook: Graphical User Interface Gallery](https://guidebookgallery.org)  
 [IP Lookup](https://whatismyipaddress.com/ip-lookup)  
 [IP to CIDR Conversion](http://ip2cidr.com/)  
 [joepie / Sven Slootweg](http://cryto.net/~joepie91/)  
