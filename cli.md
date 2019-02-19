@@ -45,6 +45,7 @@ Check the mx record for yandex.com at the name server dns1.yandex.net:
 ```
 dig mx yandex.com @dns1.yandex.net
 ```
+On Debian-based systems, *dig* is supplied by the package *dnsutils*.
 
 #### DMIDECODE
 Displays hardware information. Must be run as root.  See [this guide](https://www.howtoforge.com/dmidecode-finding-out-hardware-details-without-opening-the-computer-case).
