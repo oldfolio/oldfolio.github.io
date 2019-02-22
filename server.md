@@ -290,7 +290,7 @@ The following files should be created for geomyidae-0.34:
 
 ===========================================================================
 ```
-The gopher server's root directory (/var/gopher by default) and all of its contents need to be owned by user *geomyidae* and group *nobody*. Instead of *gophermap* files, geomyidae serves *index.gph* files. Of course, without an *index.gph* file, geomyidae will simply display a directories file contents.
+The gopher server's root directory (/var/gopher by default) and all of its contents need to be owned by user *geomyidae* and group *nobody*. Instead of *gophermap* files, geomyidae serves *index.gph* files. Of course, without an *index.gph* file, geomyidae will simply display a directory's file contents.
 
 - - - 
 #### Server Naming Schemes
