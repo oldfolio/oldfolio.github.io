@@ -278,6 +278,21 @@ line in the listen 80; block that simply redirects to HTTPS.
 ##### PmWiki Notes
 The `wiki.d` directory needs to be writable by the web server. This can be done by changing the directory's group owner to `www` and making sure the directory and its contents are group writable. On Debian-based systems, the group owner should be `www-data`. For some reason this is not necessary in your personal web space at freeshell.de.
 - - - 
+
+#### The geomyidae gopher server under NetBSD
+Becasue I was never able to get pygopherd running under NetBSD, I installed geomyidae instead. The geomyidae installation returns the following message:
+```
+===========================================================================
+The following files should be created for geomyidae-0.34:
+
+        /etc/rc.d/geomyidae (m=0755)
+            [/usr/pkg/share/examples/rc.d/geomyidae]
+
+===========================================================================
+```
+The gopher server's root directory (/var/gopher by default) and all of its contents need to be owned by user *geomyidae* and group *nobody*. Instead of *gophermap* files, geomyidae serves *index.gph* files. Of course, without an *index.gph* file, a geomyidae will simply display a directories file contents.
+
+- - - 
 #### Server Naming Schemes
 [RFC 1178](http://tools.ietf.org/html/rfc1178): Choosing a Name for Your Computer
 
