@@ -9,7 +9,10 @@ body{
   background-color:#fffffd;
 }
 pre{
-  background-color:ghostwhite;
+  padding:4px;
+  border-style:solid;
+  border-width:thin;
+  /** background-color:#ededed; **/
 }
 a:link {
   color:midnightblue;
