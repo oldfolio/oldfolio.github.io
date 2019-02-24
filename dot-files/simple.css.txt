@@ -3,17 +3,17 @@
 body{
   margin:1em auto;
   max-width:40em;
-  line-height: 1.6;
+  line-height:1.6;
   font-size:1.1em;
   /** font-family:sans-serif; **/
   background-color:#fffffd;
 }
 a:link {
-  color: midnightblue;
+  color:midnightblue;
 }
 a:visited {
-  color: midnightblue;
+  color:midnightblue;
 }
 a:hover {
-  color: blue;
+  color:blue;
 }
