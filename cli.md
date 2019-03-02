@@ -102,6 +102,13 @@ Export secret/private key:
 gpg -a --export-secret-keys {key-identifier}  > secret-key.asc
 ```
 
+#### HTML ESCAPE SEQUENCES
+```
+&amp; will display &
+&lt; will display <
+&gt; will display >
+```
+
 #### LN
 ```
 ln -s target-file link-name
