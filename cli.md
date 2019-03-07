@@ -154,6 +154,13 @@ rsync -avu --delete source-directory/ host:/destination-directory
 ```
 Notice that the source directory HAS a trailing slash, but that the destination directory does NOT have a trailing slash.
 
+Hetzner storage boxes only recognize relative paths. So, your rsync command will need to look something like:
+```
+rsync -avu --delete local-directory/ hetzner:./directory
+                                             ^
+                                     notice the dot
+```
+
 #### SECURE_DELETE (FreeBSD) / SECURE-DELETE (Debian)
 Overwrite and delete all files and subdirectories of DIRECTORY
 ```
