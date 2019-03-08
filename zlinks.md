@@ -38,6 +38,7 @@ Fossamail Archive ftp://archive.palemoon.org/fossamail/
 [IP Lookup](https://whatismyipaddress.com/ip-lookup)  
 [IP to CIDR Conversion](http://ip2cidr.com/)  
 [joepie / Sven Slootweg](http://cryto.net/~joepie91/)  
+[LibreOffice Fonts](https://wiki.documentfoundation.org/Fonts)  
 [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)  
 [Nginx Beginner's Guide](https://nginx.org/en/docs/beginners_guide.html)  
 [Old Version](http://www.oldversion.com)  
