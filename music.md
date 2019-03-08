@@ -299,6 +299,7 @@ Jo Yeong-wook
 [Vic Chesnutt: Coward](https://www.youtube.com/watch?v=LNJKL_6MwT0)  
 [Vic Chesnutt: Degenerate](https://www.youtube.com/watch?v=nSj1H0sqYHc)  
 [Warren Zevon: Prison Grove](https://www.youtube.com/watch?v=9Ctp2QbLYxY)  
+[Wes Montgomery: The Incredible Jazz Guitar](https://www.youtube.com/watch?v=nU3OwXyL5R8)  
 [The White Buffalo: House of the Rising Sun](https://www.youtube.com/watch?v=MOqm0qGJhpw)  
 [White Stripes: Ball and Biscuit](https://www.youtube.com/watch?v=03YUgHAshSo)  
 [White Stripes: Dead Leaves and the Dirty Ground](https://www.youtube.com/watch?v=7OyytKqYjkE)  
