@@ -77,8 +77,5 @@ VPS Provider: [TinyKVM](https://tinykvm.com)
 
 ---
 
-[Testing, testing...](http://testing.oldfolio.org:11349)  
-
----
 
 
