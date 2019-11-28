@@ -19,6 +19,7 @@ For my home directory:
 
 ~/.emacs.d/[init.el](dot-files/emacs.d-init.el.txt)  
 ~/.emacs.d/el/[typopunct.el](dot-files/typopunct.el)  
+~/.emacs.d/el/[gopher.el](dot-files/gopher.el.txt)  
 
 ~/[.forward](dot-files/forward.txt)
 
@@ -28,9 +29,13 @@ Whenever you make changes to gpg-agent.conf, you should reload the agent:
 $ gpg-connect-agent reloadagent /bye
 ```
 
+~/.gnupg/[gpg.conf](dot-files/gpg.conf.txt)  
+
 ~/[.kshrc](dot-files/kshrc.txt)
 
-~/[.mkshrc](dot-files/mkshrc.txt) additions
+~/[.mkshrc](dot-files/mkshrc.txt) additions  
+
+~/[.profile](dot-files/profile.txt)  
 
 ~/.ssh/[authorized_keys](dot-files/authorized_keys.txt)  
 ~/.ssh/[config](dot-files/ssh-config.txt)
