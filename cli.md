@@ -221,6 +221,13 @@ To unmount:
 $ fusermount -u /local/mountpoint
 ```
 
+#### SYSCTL
+
+Report hardware information on FreeBSD systems:
+```
+# sysctl hw.model hw.machine hw.ncpu
+```
+
 #### TAR
 To create an archive that excludes some files in the target:
 ```
@@ -235,6 +242,29 @@ Compression:
 bzip2 = j  
 gzip = z  
 xz = J  
+
+Create an archive with a time stamp in the archive name:
+```
+suffix=`date +%F-%H.%M`
+tar cvf /home/user/archive-$suffix.tar /path/to/target-directory/
+```
+
+#### TMUX
+Ctrl-b to enter commands
+
+Detach the current session:
+```
+Ctrl-b d
+```
+Re-attach a previous session:
+```
+tmux attach -t 0
+```
+where "0" is the name of the previous session.
+
+A [tmux beginner's guide](https://www.ocf.berkeley.edu/~ckuehl/tmux/).
+
+A [tmux cheat sheet](https://tmuxcheatsheet.com/).
 
 #### TWENEX
 To log in to SDF's Twenex machine, first log in to your SDF
@@ -282,6 +312,18 @@ Remove a directory:
 @@
 @
 ``` 
+
+#### USERMOD
+To change a user's primary login group:
+```
+usermod -g primarygroupname username
+```
+To add a user to a secondary group:
+```
+usermod -a -G secondarygroupname username
+```
+Using the **-G** switch without the **-a** switch will remove a user from all secondary groups except those specified by the current instance of the **-G** switch.
+
 #### VIM
 Find each occurrence of 'foo' and replace it with 'bar':
 ```
