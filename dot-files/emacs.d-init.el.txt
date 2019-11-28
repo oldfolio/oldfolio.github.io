@@ -30,3 +30,10 @@
 ;;; Add typographical marks
 (require 'typopunct)
 (typopunct-change-language 'english t)
+
+(require 'gopher)
+
+;;; Set calendar location
+(setq calendar-latitude 38.05)
+(setq calendar-longitude -84.5)
+(setq calendar-location-name "Lexington, Ky.")
