@@ -165,6 +165,12 @@ rsync -avu --delete local-directory/ hetzner:./directory
                                              ^
                                      notice the dot
 ```
+Synchronize a single file:
+```
+rsync -avuP source-directory/filename host:/destination-directory/
+                                                                 ^
+```
+Notice that when synchronizing a single file a trailing slash *DOES* follow the destination directory.
 
 #### SECURE_DELETE (FreeBSD) / SECURE-DELETE (Debian)
 Overwrite and delete all files and subdirectories of DIRECTORY
@@ -192,6 +198,27 @@ smem -t -k -c pss -P yandex-d | tail -n 1
 Report vivaldi total memory usage:
 ```
 smem -t -k -c pss -P vivaldi | tail -n 1
+```
+
+#### SSH
+Creating an SSH tunnel:
+```
+ssh -D 5222 remote-server -N
+
+-D = bind port
+-N = do not execute a remote command
+
+chromium --proxy-server=socks5://localhost:5222
+```
+
+#### SSHFS
+If you install sshfs, you can mount your remote servers as an ordinary user. Use the mount options uid and gid so that the remote directory will belong to the local user.
+```
+$ sshfs server-nickname:/home/username /local/mountpoint -o uid=1000,gid=1000
+```
+To unmount:
+```
+$ fusermount -u /local/mountpoint
 ```
 
 #### TAR
