@@ -45,7 +45,7 @@ Check the mx record for yandex.com at the name server dns1.yandex.net:
 ```
 dig mx yandex.com @dns1.yandex.net
 ```
-On Debian-based systems, *dig* is supplied by the package *dnsutils*.
+On Debian-based systems, *dig* is supplied by the package *dnsutils*, on FreeBSD by *bind-tools*.
 
 #### DMIDECODE
 Displays hardware information. Must be run as root.  See [this guide](https://www.howtoforge.com/dmidecode-finding-out-hardware-details-without-opening-the-computer-case).
@@ -101,6 +101,11 @@ Export secret/private key:
 ```
 gpg -a --export-secret-keys {key-identifier}  > secret-key.asc
 ```
+If you should ever need to edit your ~/.gnupg/gpg-agent.conf file, you will need to reload the gpg-agent once you are finished editing.
+```
+$ gpg-connect-agent reloadagent /bye
+```
+Use extreme caution if you change the gpg-agent to pinentry-curses. Doing so breaks the graphical version of Emacs, and I have not yet found a work-around. If you will be working remotely with GnuPG encrypted files, you may need to set the agent to pinentry-curses. (See the dot file above.) Otherwise, the gpg-agent will expect a graphical environment -- and fail when one is not present.
 
 #### HTML ESCAPE SEQUENCES
 ```
