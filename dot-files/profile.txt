@@ -1,0 +1,7 @@
+# If you are thinking about using mksh as a login shell on FreeBSD,
+# you may wish to add the following to your ~/.profile. If you do
+# so, you should comment out the original $ENV definition.
+
+if [ $SHELL=/usr/local/bin/mksh ] ; then [ ENV=$HOME/.mkshrc ] ; else [ ENV=$HOME/.shrc ] ; fi
+
+export ENV
