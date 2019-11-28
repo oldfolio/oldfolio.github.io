@@ -1,0 +1,3 @@
+#!/bin/sh
+# FreeBSD report CPU information
+sysctl hw.model hw.machine hw.ncpu
