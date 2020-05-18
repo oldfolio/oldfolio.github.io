@@ -12,6 +12,12 @@ a = add to archive
 apt-get --no-install-recommends install package-name
 ```
 
+#### CD
+To return to the directory that you just left:
+```
+cd -
+```
+
 #### DATE
 FreeBSD: Set the date to 5:05 pm, January 21, 2018
 ```
@@ -55,6 +61,21 @@ To display memory information:
 dmidecode -t memory
 ```
 
+#### DPKG
+List installed packages:
+```
+dpkg --get-selections
+```
+Show the status of package, PACKAGE:
+```
+dpkg-query --status PACKAGE
+```
+
+#### DU
+```
+du -h --max-depth=1
+```
+
 #### DUPLICITY
 Backup files in directory "source" to a remote server. The first time duplicity runs it will do a full backup. Subsequently, it will do an incremental backup of changes.
 ````
@@ -75,6 +96,15 @@ You can toggle the numbering of hyperlinks with the period "."
 
 #### EMACS
 I keep my [Emacs notes](emacs.md) on their own page.
+
+#### FALLOCATE
+fallocate: Preallocate or deallocate space to a file
+
+This command can be used to create large files faster than dd. To create an empty 1 MB file:
+```
+fallocate -l 1M filename
+```
+The -l switch specifies the size. K=kilobytes. M=Megabytes. G=Gigabytes. The default is bytes. More specifically, M = 1024*1024 bytes but MB = 1000*1000.
 
 #### GNUPG
 Encrypt to a specific user/recipient:
@@ -119,6 +149,13 @@ Use extreme caution if you change the gpg-agent to pinentry-curses. Doing so bre
 ln -s target-file link-name
 ```
 
+#### LOSETUP
+```
+# losetup -a # List the status of all loop devices
+# losetup /dev/loop0 filename # Associate loop device 0 with file filename
+# losetup -d /dev/loop0 # Detach loop device
+```
+
 #### NAMEBENCH
 Send 128 queries to only the nameservers specified:
 ```
@@ -153,6 +190,20 @@ Possible ~/.nethackrc
 OPTIONS=color,time,hilite_pet,menucolors,!autopickup,role=valkyrie,race=human
 #OPTIONS=color,time,role=wizard,race=elf,gender=female
 ```
+
+#### OPENSSL
+You can use openssl for simple file encryption:
+```
+openssl enc -blowfish -a -iter 12 -in filename.txt -out filename.enc
+```
+To decrypt the output file from the above example:
+```
+openssl enc -d -blowfish -a -iter 12 -in filename.enc -out filename.txt
+```
+For decryption, notice the addition of the -d switch and the reversal of the input and output filenames. Also, notice that all of the other options are included. Omitting any of those options will yield a failure to decrypt.
+
+Some ciphers that you can use here.
+
 #### RSYNC
 ```
 rsync -avu --delete source-directory/ host:/destination-directory
