@@ -202,7 +202,7 @@ openssl enc -d -blowfish -a -iter 12 -in filename.enc -out filename.txt
 ```
 For decryption, notice the addition of the -d switch and the reversal of the input and output filenames. Also, notice that all of the other options are included. Omitting any of those options will yield a failure to decrypt.
 
-Some ciphers that you can use here.
+Some ciphers that you can use [here](dot/openssl-ciphers.txt).
 
 #### RSYNC
 ```
