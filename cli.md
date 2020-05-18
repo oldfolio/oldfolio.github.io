@@ -202,7 +202,32 @@ openssl enc -d -blowfish -a -iter 12 -in filename.enc -out filename.txt
 ```
 For decryption, notice the addition of the -d switch and the reversal of the input and output filenames. Also, notice that all of the other options are included. Omitting any of those options will yield a failure to decrypt.
 
-Some ciphers that you can use [here](dot/openssl-ciphers.txt).
+Some ciphers that you can use [here](dot-files/openssl-ciphers.txt).
+
+#### RCLONE
+Use rclone to sunchronize local files/folders with a Backblaze B2 bucket. On your home PC you should also install the Debian backblaze-b2 utility in order to manage your Backblaze buckets and account.
+```
+$ b2 create_bucket File-Cabinet-Master allPrivate
+$ rclone config # to set up or edit the configuration of remote storage
+$ rclone --progress sync /home/mm/File-Cabinet-Master b2_cabinet:File-Cabinet-Master
+$ rclone --progress sync b2_cabinet:File-Cabinet-Master scw_cabinet:file-cabinet
+$ rclone size b2_cabinet:File-Cabinet-Master
+```
+When synchronizing to an S2 bucket, you may want to add the --size-only flag in order to reduce the number of requests to the remote server.
+```
+rclone sync --progress --size-only /home/mm/File-Cabinet-Master scw_cabinet:file-cabinet
+```
+In addition to commercial remote services, you can also use rclone to synchronize over sftp to one of your own servers.
+```
+rclone --progress sync /home/mm/File-Cabinet-Master cedar_ssh:/home/mm/File-Cabinet-Master
+```
+When you set up a Backblaze B2 account as an rclone remote resource, you will need to use an application key.
+
+The above set of instructions allow you to synchronize using a local directory as the source and a B2 bucket as the destination. If you wish to reverse that and use the B2 bucket as the source and a local directory as the destination, then use the b2 tool:
+```
+$ b2 sync --dryRun --threads 1 b2://File-Cabinet-Master/ /home/mm/File-Cabinet-Master
+```
+The default number of threads is 10. I use only one to avoid annoying others in my household who are also using the network.
 
 #### RSYNC
 ```
