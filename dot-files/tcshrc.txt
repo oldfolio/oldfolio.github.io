@@ -4,4 +4,7 @@ set promptchars = "%#"
 
 # Setting an environment variable
 setenv TZ 'America/New_York'
+# setenv TZ 'UTC'
 setenv EDITOR vim
+setenv LANG en_US.UTF-8
+setenv CHARSET en_US.UTF-8

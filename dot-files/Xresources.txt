@@ -1,0 +1,17 @@
+## ~/.Xresources file
+## Highlight text and middle click to copy text
+## Middle click again to paste text
+## Right click on the scroll bar goes backward
+## Left click on scroll bar goes forward
+# Make xterm cuts available to general clipboard
+XTerm*selectToClipboard: true
+
+xterm*faceName: BitStream Vera Sans Mono
+xterm*faceSize: 12
+#xterm*faceName: Liberation Mono
+#xterm*faceSize: 14
+#xterm*font: *-fixed-*-*-*-18-*
+#xterm*reverseVideo: on
+xterm*foreground: #000000
+xterm*background: #ffffff
+xterm*scrollBar: true

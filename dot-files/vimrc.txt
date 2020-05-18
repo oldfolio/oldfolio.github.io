@@ -2,6 +2,7 @@ syntax on
 set encoding=utf-8
 set ruler
 set ignorecase
+"set backspace=2 is equivalent to next line:
 set backspace=indent,eol,start
 set viminfo=
 set noswapfile

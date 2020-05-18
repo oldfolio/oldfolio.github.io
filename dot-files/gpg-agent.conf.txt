@@ -1,1 +1,2 @@
 default-cache-ttl 120
+pinentry-program /usr/bin/pinentry-curses

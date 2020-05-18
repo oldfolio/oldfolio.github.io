@@ -1,0 +1,28 @@
+# Do not need listen 80 blocks if you are behind Cloudflare
+
+server {
+  root /var/www/oldfolio.org;
+  server_name oldfolio.org;
+  listen 443 ssl http2;
+  listen [::]:443 ssl http2;
+  return 301 https://www.oldfolio.org$request_uri;
+
+### CLOUDFLARE ###
+  ssl_certificate /etc/ssl/CF/CF-origin-oldfolio.org-cert.pem;
+  ssl_certificate_key /etc/ssl/CF/CF-origin-oldfolio.org-key.pem;
+  ssl_client_certificate /etc/nginx/certs/cloudflare.crt;
+  ssl_verify_client on;
+}
+
+server {
+  root /var/www/oldfolio.org;
+  server_name www.oldfolio.org;
+  listen 443 ssl http2;
+  listen [::]:443 ssl http2;
+
+### CLOUDFLARE ###
+  ssl_certificate /etc/ssl/CF/CF-origin-oldfolio.org-cert.pem;
+  ssl_certificate_key /etc/ssl/CF/CF-origin-oldfolio.org-key.pem;
+  ssl_client_certificate /etc/nginx/certs/cloudflare.crt;
+  ssl_verify_client on;
+}
