@@ -24,4 +24,6 @@ Search Engines:
 Text only weather forecast from [Weather Maniac](http://weather.maniac.com/)
 
 - - - 
+The [second edition of my notes site](https://git.oldfolio.org/notes2e/).
+
 Log in to [GitHub](https://github.com/login).
