@@ -1,4 +1,11 @@
 ## Server
+#### Debian Pre-Installation Consideration
+If you wish to install recent Debian versions with sysvinit instead of systemd, you should do the following: At the installation menu, "tab" on your choice of installation methods and append the following to the boot options:
+```
+preseed/late_command="in-target apt-get install -y sysvinit-core"
+```
+Launch the installation and continue as normal.
+
 #### SSH Configuration
 After you have set up an ordinary user who can su to the root user (_i.e._, is a member of the wheel group in FreeBSD), you should disable root logins, by adding the following line:
 ```
