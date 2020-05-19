@@ -7,11 +7,21 @@ View performance statistics for public DNS resolvers at [DNSPerf](https://www.dn
 1.0.0.1
 2606:4700:4700::1111
 2606:4700:4700::1001
+
+https://cloudflare-dns.com/dns-query
 ```
 #### Dyn
 ```
 216.146.35.35
 216.146.36.36
+```
+#### FreeDNS.zone
+```
+172.104.237.57  (Frankfurt, Germany)
+172.104.49.100  (Singapore)
+37.235.1.174    (Vienna, Austria)
+37.235.1.177    (Vienna, Austria)
+45.33.97.5      (Atlanta, GA, USA)
 ```
 #### Google
 ```
@@ -19,6 +29,20 @@ View performance statistics for public DNS resolvers at [DNSPerf](https://www.dn
 8.8.4.4
 2001:4860:4860::8888
 2001:4860:4860::8844
+
+https://dns.google/dns-query
+```
+#### Hurricane Electric
+```
+74.82.42.42
+2001:470:20::2
+
+https://ordns.he.net/dns-query
+```
+#### Namecheap SafeServe
+```
+198.54.117.10
+198.54.117.11
 ```
 #### OpenDNS
 ```
@@ -30,8 +54,11 @@ View performance statistics for public DNS resolvers at [DNSPerf](https://www.dn
 #### OpenNIC Project
 Go to https://www.opennic.org to see which of their DNS resolvers are closest to you. OpenNIC servers periodically go down and occasionally just disappear. The servers that tend to work best for me (in North America) are:
 ```
-192.52.166.110
-158.69.239.167
+50.116.17.96
+66.70.228.164
+147.135.115.88
+172.98.193.42
+66.187.76.168
 ```
 #### Quad9
 ```
@@ -189,4 +216,16 @@ Multiple servers: Accept mail from the server specified in the mail server's A r
 ```
 domain.tld. IN TXT "v=spf1 a:mail-server.domain.tld include:_spf.yandex.net ~all"
 ```
+### Miscellaneous
+
+Disable IPv6 in Firefox by changing
+
+network.dns.disableIPv6
+
+from false to true in about:config.
+
+General note about serving web sites: If your server only has an IPv6 address, I have found two options for serving sites over IPv4:
+
+* Use Cloudflare's DNS, and set Cloudflare to proxy.
+* Add an A record for the [Netiter proxy service](http://v4-frontend.netiter.com/).
 
