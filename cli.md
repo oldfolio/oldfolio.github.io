@@ -78,15 +78,15 @@ du -h --max-depth=1
 
 #### DUPLICITY
 Backup files in directory "source" to a remote server. The first time duplicity runs it will do a full backup. Subsequently, it will do an incremental backup of changes.
-````
+```
 duplicity --encrypt-key gpg-key /home/user/source sftp://host//home/user/target
 
 duplicity restore sftp://host//home/user/backup /home/user/local-restore-directory
-````
+```
 On incremental backups, some versions of duplicity will return the following error message related to GnuPG:
-````
+```
 Error processing remote manifest
-````
+```
 This is a known and benign error message that does not indicate any failures in the backup.
 
 #### ELINKS
@@ -141,13 +141,13 @@ git status
 ```
 When you are away from your local folder you can still edit your site by logging into Github and editing files there. You would just need to remember to pull those changes into your local folder with
 ```
-git pull {origin master}
+git pull (origin master)
 ```
 
 #### GNUPG
 Encrypt to a specific user/recipient:
 ```
-gpg -e -r <user> file.txt
+gpg -e -r {user} file.txt
 ```
 Create a detached, ascii-enarmored signature specifying which key to use:
 ```
@@ -450,7 +450,18 @@ vim scp://user@server.com:22//home/user/filename
 or
 ```
 :e scp://user@server.com:22//home/user/filename
+:e scp://SSH-Config-Host//home/user/filename
+:e scp://SSH-Config-Host/filename
 ```
+In that last example, notice that "/home/user" is not needed because you are automatically logged into that directory.
+
+Browse a remote directory:
+```
+:e scp://user@server.com:22//home/user/
+:e scp://SSH-Config-Host//
+```
+Again, in that second example, the directory specification is not needed if you with to browse the directory you are initially logged into.
+
 Prompt for an encryption key:
 ```
 :X
