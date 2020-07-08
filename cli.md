@@ -106,6 +106,44 @@ fallocate -l 1M filename
 ```
 The -l switch specifies the size. K=kilobytes. M=Megabytes. G=Gigabytes. The default is bytes. More specifically, M = 1024*1024 bytes but MB = 1000*1000.
 
+#### FD / FDFIND
+
+A much more user-friendly version of the traditional "find" command. Debian has renamed the upstream binary from "fd" to "fdfind" but this change is not mentioned in the Debian man page, which is still located at "man fd".
+
+#### GIT
+
+Create a local directory for git repositories. Then, in that directory, retrieve the remote repository that you wish to work on locally:
+```
+git clone git@github.com:oldfolio/notes2e.git
+```
+Note that the above command presupposes that you have added an SSH key to your GitHub acount. Over time, your local folder can grow quite large with the record of changes that git keeps in the .git directory. One solution is to run the above command in a new folder and use the new smaller folder as your working directory.
+
+Edit locally whatever files you wish to change. To update the remote repository:
+```
+git diff (optional, to see changes)
+git add -u
+git commit (or git commit -am "Update message")
+git push
+```
+Add a new file:
+```
+git add FILENAME
+```
+To host a static site at Github pages, create a repository for the site. In the root directory for the site, place a text file named CNAME. The content of the CNAME file should simply be the domain name you wish to use for the site, e.g. notes.oldfolio.org. Then create a CNAME record at your domain’s DNS host that points to USERNAME.github.io:
+```
+notes 300 IN CNAME oldfolio.github.io.
+```
+You can then check the Enforce HTTPS option in your repository’s settings.
+
+To check the status of your repository:
+```
+git status
+```
+When you are away from your local folder you can still edit your site by logging into Github and editing files there. You would just need to remember to pull those changes into your local folder with
+```
+git pull {origin master}
+```
+
 #### GNUPG
 Encrypt to a specific user/recipient:
 ```
